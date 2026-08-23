@@ -56,15 +56,16 @@ Open an issue with the "Report a broken entry" template. Weekly automation catch
 archives, and skills that disappear out of a repo, but it cannot tell you a skill has quietly
 become useless. That report has to come from a person.
 
-## A note on our own entries
+## Entries from ZeroPointRepo
 
-The maintainer of this list also builds developer tools
-([TranscriptAPI](https://transcriptapi.com), [StayingAPI](https://stayingapi.com),
-[Zillapi](https://zillapi.com)), and two of them appear on this page: `youtube-full` in the
-Featured slot, and `transcriptapi` and `zillapi` under Live data APIs. They were listed only once
-a genuinely working entry existed, they carry the same format and the same verification as
-everything else, they appear at most once per section, and a competing entry is never rejected to
-protect them.
+Some entries in this list are built by ZeroPointRepo: `youtube-full` in the Featured slot, and
+`transcriptapi` and `zillapi` under Live data APIs. They are held to the same rules as every other
+entry, and to a higher bar on one point:
+
+- Same entry format as everyone else. No bold, no emoji, no "featured" styling in the catalog.
+- At most one per section.
+- A higher acceptance bar: no working path for the reader, no real docs, it does not go in.
+- A competing entry is never rejected or downranked to protect one of ours.
 
 The list is meant to be useful with every one of those entries deleted. If it stops being that,
 open an issue and say so.
