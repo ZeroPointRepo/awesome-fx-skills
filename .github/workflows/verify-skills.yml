@@ -1,0 +1,52 @@
+name: verify-skills
+
+on:
+  schedule:
+    - cron: '0 8 * * 1' # Mondays 08:00 UTC, ahead of the weekly maintenance pass
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - .github/scripts/verify-skills.mjs
+      - .github/scripts/build-catalog.mjs
+      - .github/workflows/verify-skills.yml
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Re-check every install command against fx's own match rule
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/verify-skills.mjs README.md
+
+      - name: Rebuild CATALOG.md
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/build-catalog.mjs
+
+      - name: Commit updated badge and catalog data
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- badges/ CATALOG.md README.md; then
+            echo "No badge or catalog change."
+            exit 0
+          fi
+          git add badges/ CATALOG.md README.md
+          git commit -m "chore: refresh skill-verification badges and catalog [skip ci]"
+          # Two runs can finish at once (the weekly cron, a push, a manual dispatch). Rebase onto
+          # whichever one landed first instead of failing the job on a lost race.
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase --autostash origin main || exit 1
+          done
+          git push
