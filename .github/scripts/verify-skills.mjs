@@ -33,17 +33,27 @@ const H = {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function api(url, tries = 3) {
+// Returns { ok, res } on a real answer, or { rateLimited: true } when GitHub throttled us for
+// long enough that we never got one. Those two are different facts and the caller treats them
+// differently: a throttled lookup is "not checked", never "broken". Counting a rate limit as a
+// broken entry would flip the badge red for a reason that has nothing to do with the list.
+async function api(url, tries = 5) {
   for (let i = 0; i < tries; i++) {
-    const r = await fetch(url, { headers: H });
-    if (r.ok) return r;
-    if (r.status === 403 || r.status === 429) {
-      await sleep(4000 * (i + 1));
+    let r;
+    try {
+      r = await fetch(url, { headers: H });
+    } catch {
+      await sleep(2000 * (i + 1));
       continue;
     }
-    return r;
+    if (r.ok) return { res: r };
+    if (r.status === 403 || r.status === 429) {
+      await sleep(5000 * (i + 1));
+      continue;
+    }
+    return { res: r };
   }
-  return null;
+  return { rateLimited: true };
 }
 
 const text = readFileSync(file, 'utf8');
@@ -79,14 +89,19 @@ function parseFrontmatterName(txt) {
 
 const problems = [];
 const ok = [];
+const notChecked = [];
 
 async function check(e) {
-  const r = await api(`https://api.github.com/repos/${e.slug}`);
-  if (!r || !r.ok) {
-    problems.push(`${e.slug} --skill ${e.skill}: repo lookup HTTP ${r ? r.status : 'error'}`);
+  const a = await api(`https://api.github.com/repos/${e.slug}`);
+  if (a.rateLimited) {
+    notChecked.push(`${e.slug} --skill ${e.skill}: rate limited before the repo could be resolved`);
     return;
   }
-  const j = await r.json();
+  if (!a.res.ok) {
+    problems.push(`${e.slug} --skill ${e.skill}: repo lookup HTTP ${a.res.status}`);
+    return;
+  }
+  const j = await a.res.json();
   if (j.archived) {
     problems.push(`${e.slug} --skill ${e.skill}: ARCHIVED upstream`);
     return;
@@ -96,12 +111,16 @@ async function check(e) {
     return;
   }
 
-  const tr = await api(`https://api.github.com/repos/${e.slug}/git/trees/${j.default_branch}?recursive=1`);
-  if (!tr || !tr.ok) {
-    problems.push(`${e.slug} --skill ${e.skill}: could not read the repository tree (HTTP ${tr ? tr.status : 'error'})`);
+  const t = await api(`https://api.github.com/repos/${e.slug}/git/trees/${j.default_branch}?recursive=1`);
+  if (t.rateLimited) {
+    notChecked.push(`${e.slug} --skill ${e.skill}: rate limited before the repository tree could be read`);
     return;
   }
-  const tree = await tr.json();
+  if (!t.res.ok) {
+    problems.push(`${e.slug} --skill ${e.skill}: could not read the repository tree (HTTP ${t.res.status})`);
+    return;
+  }
+  const tree = await t.res.json();
   const paths = (tree.tree || []).filter((t) => t.path.endsWith('SKILL.md')).map((t) => t.path);
 
   // fx match rule, leg one: the folder holding SKILL.md is named --skill.
@@ -136,8 +155,13 @@ await Promise.all(
 
 ok.sort();
 problems.sort();
+notChecked.sort();
 console.log(`OK (${ok.length}):`);
 ok.forEach((s) => console.log('  ' + s));
+if (notChecked.length) {
+  console.log(`\nNOT CHECKED (${notChecked.length}) - throttled by the GitHub API, not a finding:`);
+  notChecked.forEach((s) => console.log('  ' + s));
+}
 if (problems.length) {
   console.log(`\nPROBLEMS (${problems.length}):`);
   problems.forEach((s) => console.log('  ' + s));
@@ -145,17 +169,24 @@ if (problems.length) {
 
 const total = entries.length;
 const passing = ok.length;
+// The badge reports what was actually confirmed. Entries we could not reach are subtracted from
+// the denominator and named in the message rather than quietly counted as passing or failing.
+const checked = ok.length + problems.length;
+const message = notChecked.length
+  ? `${passing}/${checked} passing, ${notChecked.length} not checked`
+  : `${passing}/${total} passing`;
 const color = problems.length === 0 ? 'brightgreen' : problems.length <= 2 ? 'yellow' : 'red';
 
 mkdirSync('badges', { recursive: true });
 writeFileSync(
   'badges/verified.json',
-  JSON.stringify({ schemaVersion: 1, label: 'install checks', message: `${passing}/${total} passing`, color }, null, 2) + '\n'
+  JSON.stringify({ schemaVersion: 1, label: 'install checks', message, color }, null, 2) + '\n'
 );
 writeFileSync(
   'badges/checked-at.json',
   JSON.stringify({ schemaVersion: 1, label: 'last checked', message: new Date().toISOString().slice(0, 10), color: 'blue' }, null, 2) + '\n'
 );
 
-console.log(`\nWrote badges/verified.json (${passing}/${total}) and badges/checked-at.json`);
+console.log(`\nWrote badges/verified.json (${message}) and badges/checked-at.json`);
+// Exit non-zero only for a real finding. A throttled run is incomplete, not failing.
 process.exit(problems.length ? 1 : 0);
