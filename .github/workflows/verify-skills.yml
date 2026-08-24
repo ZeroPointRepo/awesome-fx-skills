@@ -26,6 +26,16 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/verify-skills.mjs README.md
 
+      - name: Refresh the star figures in README.md
+        # 152 hand-written figures. They are accurate today because this list is a day old;
+        # the sibling dsh-plugins list is three days old and had 54 of 75 more than 5% off.
+        # The counts are already fetched by the step above, so this just stops throwing them
+        # away. No-op when nothing moved, so it will not manufacture weekly commits.
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/refresh-stars.mjs README.md
+
       - name: Rebuild CATALOG.md
         if: always()
         env:
