@@ -52,7 +52,7 @@ WebAssembly module. This list is what that buys you, sorted by the job you are t
 - [Embedding fx](#embedding-fx)
 - [Good to know](#good-to-know)
 
-- **Full catalog:** every verified fx skill (1236) in [CATALOG.md](CATALOG.md)
+- **Full catalog:** every verified fx skill (1156) in [CATALOG.md](CATALOG.md)
 
 ---
 
