@@ -1876,7 +1876,7 @@ the chain fx walks. Add the URL, `/mcp reload`, `/mcp auth <name> --open`.
   customers. `https://mcp.squareup.com/sse`
 - **[Webflow](https://developers.webflow.com/data/docs/ai-tools)**. Sites, collections, and CMS
   items. `https://mcp.webflow.com/sse`
-- **[Wix](https://dev.wix.com/docs/mcp-server)**. Site content, stores, and bookings.
+- **[Wix](https://dev.wix.com/docs/overview/ai-the-wix-platform/the-wix-mcp)**. Site content, stores, and bookings.
   `https://mcp.wix.com/sse`
 - **[Apify](https://docs.apify.com/platform/integrations/mcp)**. Five thousand scrapers as tools,
   and it takes a static token too. `https://mcp.apify.com`
@@ -2058,12 +2058,12 @@ all of it in one place.
 
 ## Embedding fx
 
-- **[WebAssembly SDK](https://fx.sh/docs/embedding/wasm-sdk)**. Official. `createFxAgent` for
+- **[WebAssembly SDK](https://fx.sh/docs/lib/webassembly)**. Official. `createFxAgent` for
   headless ACP and `createFxTerminal` for the real TUI, both from
   [`sdk/`](https://github.com/vercel-labs/fx/tree/main/sdk) in the fx repo. Needs JSPI, so
   Chrome or Edge 137+.
 
-- **[ACP server](https://fx.sh/docs/using-fx/acp-server)**. Official. `fx acp` speaks the Agent
+- **[ACP server](https://fx.sh/docs/using-fx/acp)**. Official. `fx acp` speaks the Agent
   Client Protocol over stdio, which is how an editor drives fx as its backend.
 
 - **[chrome-fx](https://github.com/Lakphy/chrome-fx)** by [Lakphy](https://github.com/Lakphy). The
