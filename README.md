@@ -2155,6 +2155,7 @@ PRs are very welcome. [CONTRIBUTING.md](CONTRIBUTING.md) has the format and the 
   DeepSeek Harness plugins, organised by the job they do.
 - **[awesome-agent-plugins](https://github.com/ZeroPointRepo/awesome-agent-plugins)**. The
   vendor-neutral Agent Plugins standard, and who actually complies with it.
+- **[awesome-cursor-plugins](https://github.com/ZeroPointRepo/awesome-cursor-plugins)**. Cursor plugins from the official marketplace, each with the other agents it also runs in and whether it needs a sign-in.
 - **[awesome-grok-bot](https://github.com/ZeroPointRepo/awesome-grok-bot)**. Skills, plugins, and
   MCP servers for Grok Bot.
 
