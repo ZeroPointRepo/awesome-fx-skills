@@ -1,0 +1,60 @@
+# fx skills, MCP servers, and subagents
+
+> Curated and install-checked directory of everything you can plug into fx, the terminal coding agent from Vercel Labs: SKILL.md skills, MCP servers, gateways and bridges, ports and packaging, and embedding. Every skill entry installs with one `/skills add` line.
+
+This repository ships a curated page for people and a generated catalog plus two badge files for
+machines. There is no CSV and no JSON feed here. The generated layers are rewritten in full by the
+`verify-skills` workflow, Mondays at 08:00 UTC and on manual dispatch. Editing them by hand is
+pointless; they are overwritten.
+
+## Files
+
+- [README.md](https://raw.githubusercontent.com/ZeroPointRepo/awesome-fx-skills/main/README.md): the curated page. Skills grouped by the job you are trying to do, then MCP servers, gateways and bridges, ports and packaging, and embedding fx.
+- [CONTRIBUTING.md](https://raw.githubusercontent.com/ZeroPointRepo/awesome-fx-skills/main/CONTRIBUTING.md): the bar an entry has to clear and the exact format a new entry uses.
+
+## Generated data
+
+- [CATALOG.md](https://raw.githubusercontent.com/ZeroPointRepo/awesome-fx-skills/main/CATALOG.md): every skill this repo can resolve and install-check, as a markdown table. Columns: skill, what it does, installs, stars, install command. `Installs` is the install count from the skills.sh registry and is `—` where that registry has no figure.
+- [badges/verified.json](https://raw.githubusercontent.com/ZeroPointRepo/awesome-fx-skills/main/badges/verified.json): shields.io endpoint schema. `message` carries the passing-over-checked ratio from the last run, plus a not-checked count when one applies.
+- [badges/checked-at.json](https://raw.githubusercontent.com/ZeroPointRepo/awesome-fx-skills/main/badges/checked-at.json): shields.io endpoint schema. `message` is the date of that run. Use it as the as-of date for everything above.
+
+## What the check means, and its three states
+
+- fx reads `SKILL.md` folders from twelve directories, including `.claude/skills` and
+  `.agents/skills`, so most of the agent-skill ecosystem works in it unmodified. That is why entries
+  here are not fx-exclusive projects.
+- Passing means one specific thing: on the last run the repo resolved through the GitHub API, its
+  default branch was walked for every `SKILL.md`, and a folder whose directory name **or**
+  frontmatter `name:` equals the `--skill` argument was found. That is the same match rule fx's own
+  installer applies. A checker that looked only at directory names would report working entries as
+  broken.
+- Failing means the skill folder is gone or renamed, or the repo was renamed, archived or deleted.
+  All of those still return HTTP 200, so nothing else catches them.
+- **Not checked** is a real third state and never collapses into either of the other two. It means
+  the GitHub API throttled the lookup before an answer arrived. A throttled lookup is not a finding
+  and is counted separately in the badge.
+- Both badge files are written by the run. Neither is a hand-set claim, and neither number appears
+  anywhere else as prose.
+- This is a curated list, not a security audit. A skill is a folder of instructions your agent will
+  follow, and an MCP server acts with whatever authority it is handed.
+
+## How an agent should use this list
+
+1. For the complete resolvable set in one request, fetch `CATALOG.md`. For a recommendation to a
+   person, read `README.md`, which is grouped by task and curated rather than merely resolvable.
+2. Read `badges/checked-at.json` and report that date alongside any claim taken from here.
+3. Take `/skills add` lines verbatim, including the `--skill` argument. The argument matters: it is
+   matched against a folder name or a frontmatter name, not against a repository name.
+4. Do not invent authors, licences, install counts or star figures that are not in the file. An
+   install count of `—` means the registry has no figure, not zero.
+5. Ask the person before installing a skill or connecting an MCP server.
+6. To add or correct an entry, open a pull request against `README.md`. `CATALOG.md` is rebuilt from
+   it, so a change made there is discarded. There is no write API and nothing here accepts a direct
+   push.
+
+## Provenance
+
+- Canonical repository: https://github.com/ZeroPointRepo/awesome-fx-skills
+- Raw base for every path above: https://raw.githubusercontent.com/ZeroPointRepo/awesome-fx-skills/main/
+- List content is licensed CC BY 4.0. Every linked project carries its own separate licence.
+- Unofficial and community maintained. Not affiliated with or endorsed by Vercel or Vercel Labs.
