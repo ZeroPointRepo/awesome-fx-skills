@@ -47,7 +47,12 @@ async function api(url, tries = 5) {
       continue;
     }
     if (r.ok) return { res: r };
-    if (r.status === 403 || r.status === 429) {
+    // Every "we could not look" status, not just the throttles. A broken credential (401) and a
+    // GitHub outage (5xx) are transport failures exactly like a rate limit, and routing them to
+    // the caller as a normal !ok answer files them as BROKEN ENTRIES — which is how a sibling
+    // repo published "0/81 passing" off a run in which nothing was checked. 404 is deliberately
+    // NOT here: a repo that is genuinely gone is the finding this script exists to make.
+    if (r.status === 401 || r.status === 403 || r.status === 429 || r.status >= 500) {
       await sleep(5000 * (i + 1));
       continue;
     }
@@ -176,6 +181,23 @@ const message = notChecked.length
   ? `${passing}/${checked} passing, ${notChecked.length} not checked`
   : `${passing}/${total} passing`;
 const color = problems.length === 0 ? 'brightgreen' : problems.length <= 2 ? 'yellow' : 'red';
+
+// A run that could not look must not publish a verdict OR a date. The `notChecked` bucket above
+// already keeps a throttled entry out of the numerator, but two holes remained: with almost
+// everything throttled, `problems.length === 0` still rendered the badge BRIGHTGREEN, and
+// checked-at was stamped with today regardless — so a run that verified nothing left the page
+// claiming it had verified everything, today. Green-because-nothing-ran is the same failure as
+// the dead week: silence rendering as health. Above 5% not-checked, both badges are left alone.
+// (Sibling fix to awesome-dsh-plugins, which published a red 0/81 off a fully 403'd run.)
+if (notChecked.length / Math.max(total, 1) > 0.05) {
+  console.log(
+    `\nBADGES NOT WRITTEN: ${notChecked.length}/${total} entries (${((notChecked.length / total) * 100).toFixed(1)}%) were never checked.\n` +
+      'Leaving the previous badge and checked-at date in place — last week\'s honest figure beats\n' +
+      'this week\'s fabricated one, and checked-at must never claim a date on which nothing ran.'
+  );
+  notChecked.slice(0, 20).forEach((s) => console.log('  ' + s));
+  process.exit(1);
+}
 
 mkdirSync('badges', { recursive: true });
 writeFileSync(
