@@ -130,7 +130,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Get the small details that make software feel finished** with [emil-design-eng](https://github.com/emilkowalski/skills) by [emilkowalski](https://github.com/emilkowalski). Emil Kowalski on component polish, animation decisions, and the invisible parts. 33.9k★, MIT.
+- **Get the small details that make software feel finished** with [emil-design-eng](https://github.com/emilkowalski/skills) by [emilkowalski](https://github.com/emilkowalski). Emil Kowalski on component polish, animation decisions, and the invisible parts. 34.0k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -141,7 +141,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build gesture and spring motion that feels native** with [apple-design](https://github.com/emilkowalski/skills) by [emilkowalski](https://github.com/emilkowalski). Apple's interface and motion approach translated for the web: drags, swipes, sheets, springs. 33.9k★, MIT.
+- **Build gesture and spring motion that feels native** with [apple-design](https://github.com/emilkowalski/skills) by [emilkowalski](https://github.com/emilkowalski). Apple's interface and motion approach translated for the web: drags, swipes, sheets, springs. 34.0k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -800,7 +800,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Search the web with citations attached** with [tavily-research](https://github.com/tavily-ai/skills) by [tavily-ai](https://github.com/tavily-ai). Tavily's research skill, built for answers you can trace back. 467★, MIT.
+- **Search the web with citations attached** with [tavily-research](https://github.com/tavily-ai/skills) by [tavily-ai](https://github.com/tavily-ai). Tavily's research skill, built for answers you can trace back. 468★, MIT.
 
   <details>
   <summary>Install</summary>
