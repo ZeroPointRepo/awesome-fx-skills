@@ -2,7 +2,12 @@ name: verify-skills
 
 on:
   schedule:
-    - cron: '0 8 * * 1' # Mondays 08:00 UTC, ahead of the weekly maintenance pass
+    # Off the hour deliberately. :00 is the most contended slot on GitHub's scheduler and runs
+    # there are silently DROPPED under load — this portfolio lost every scheduled run for a full
+    # week that way (2026-08-24 -> 2026-08-31) with every workflow still reporting state:active.
+    # The minute is allocated portfolio-wide in PORTFOLIO.json -> tooling.cron_minute_map.
+    # Do not "tidy" this back to :00.
+    - cron: '29 8 * * 1' # Mondays 08:29 UTC, ahead of the weekly maintenance pass
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -15,9 +20,22 @@ on:
 permissions:
   contents: write
 
+# One walk at a time, per repo. Every scheduled workflow here walks the same catalog through the
+# same installation-wide 5,000 REST calls/hour, so two overlapping walks drain each other
+# mid-walk regardless of the budget either one started with (AK evidence, 2026-08-27). The group
+# is shared by name across this repo's scheduled workflows, so the overlap is STRUCTURALLY
+# impossible rather than merely unlikely. QUEUE, never cancel: a catalog walk that gets killed
+# half-way publishes a partial catalog, which is the exact failure the shrink guard exists to
+# catch. pr-validate is deliberately NOT in this group — contributor PRs must never queue behind
+# a catalog walk.
+concurrency:
+  group: catalog-walk
+  cancel-in-progress: false
+
 jobs:
   verify:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -42,16 +60,27 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/build-catalog.mjs
 
+      - name: Append a dated star snapshot to the ledger
+        # Append-only, keyed by immutable repo id. Rides this walk instead of taking a cron of
+        # its own: the ceiling here is one catalog walk at a time, and the numbers this needs
+        # were already fetched two steps up. `if: always()` because the ledger is a record of
+        # what was observed, and an upstream step finding drift is not a reason to skip
+        # recording the week.
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/snapshot-stars.mjs CATALOG.md .github/data/star-history.json
+
       - name: Commit updated badge and catalog data
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- badges/ CATALOG.md README.md; then
+          if git diff --quiet -- badges/ CATALOG.md README.md .github/data/star-history.json; then
             echo "No badge or catalog change."
             exit 0
           fi
-          git add badges/ CATALOG.md README.md
+          git add badges/ CATALOG.md README.md .github/data/star-history.json
           git commit -m "chore: refresh skill-verification badges and catalog [skip ci]"
           # Two runs can finish at once (the weekly cron, a push, a manual dispatch). Rebase onto
           # whichever one landed first instead of failing the job on a lost race.
