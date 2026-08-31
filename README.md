@@ -163,7 +163,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Fix the accessibility bugs already in your markup** with [fixing-accessibility](https://github.com/ibelick/ui-skills) by [ibelick](https://github.com/ibelick). ARIA labels, keyboard traps, focus management, contrast, and form error wiring. 7.8k★, MIT.
+- **Fix the accessibility bugs already in your markup** with [fixing-accessibility](https://github.com/ibelick/ui-skills) by [ibelick](https://github.com/ibelick). ARIA labels, keyboard traps, focus management, contrast, and form error wiring. 7.9k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -174,7 +174,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build custom widgets that keyboards can drive** with [better-accessibility](https://github.com/jakubkrehel/skills) by [jakubkrehel](https://github.com/jakubkrehel). Accessibility engineering for components, not a lint pass over finished HTML. 4.6k★, MIT.
+- **Build custom widgets that keyboards can drive** with [better-accessibility](https://github.com/jakubkrehel/skills) by [jakubkrehel](https://github.com/jakubkrehel). Accessibility engineering for components, not a lint pass over finished HTML. 4.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -231,7 +231,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Review and refactor code
 
-- **Review everything since a commit, branch, or merge-base** with [code-review](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Two axes at once: does it follow the repo's documented standards, and does it match the spec. 242.3k★, MIT.
+- **Review everything since a commit, branch, or merge-base** with [code-review](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Two axes at once: does it follow the repo's documented standards, and does it match the spec. 242.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -242,7 +242,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Get a shared vocabulary for module design** with [codebase-design](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Where a seam goes, how deep a module should be, and how to name the thing you just built. 242.3k★, MIT.
+- **Get a shared vocabulary for module design** with [codebase-design](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Where a seam goes, how deep a module should be, and how to name the thing you just built. 242.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -253,7 +253,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Have the agent review its own work before you see it** with [requesting-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Runs before a merge or a hand-off and checks the work against what was actually asked for. 279.8k★, MIT.
+- **Have the agent review its own work before you see it** with [requesting-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Runs before a merge or a hand-off and checks the work against what was actually asked for. 279.9k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -264,7 +264,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Push back on review feedback that is wrong** with [receiving-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Verifies a suggestion technically before implementing it, instead of complying with everything. 279.8k★, MIT.
+- **Push back on review feedback that is wrong** with [receiving-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Verifies a suggestion technically before implementing it, instead of complying with everything. 279.9k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -354,7 +354,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Test and debug
 
-- **Stop guessing at bugs** with [systematic-debugging](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Forces a hypothesis and a reproduction before any fix is proposed. The most-installed debugging skill there is. 279.8k★, MIT.
+- **Stop guessing at bugs** with [systematic-debugging](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Forces a hypothesis and a reproduction before any fix is proposed. The most-installed debugging skill there is. 279.9k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1349,7 +1349,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Keep PRODUCT.md and TECH.md true while you build** with [spec-driven-implementation](https://github.com/warpdotdev/common-skills) by [warpdotdev](https://github.com/warpdotdev). Warp's spec-first loop, where the spec is updated as the implementation moves. 480★, MIT.
+- **Keep PRODUCT.md and TECH.md true while you build** with [spec-driven-implementation](https://github.com/warpdotdev/common-skills) by [warpdotdev](https://github.com/warpdotdev). Warp's spec-first loop, where the spec is updated as the implementation moves. 482★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1382,7 +1382,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Work on a feature without touching your workspace** with [using-git-worktrees](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Sets up an isolated worktree before a long change begins. 279.8k★, MIT.
+- **Work on a feature without touching your workspace** with [using-git-worktrees](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Sets up an isolated worktree before a long change begins. 279.9k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1393,7 +1393,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Block the destructive git commands** with [git-guardrails-claude-code](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Hooks that refuse push, reset --hard, clean, and branch -D before they run. 242.3k★, MIT.
+- **Block the destructive git commands** with [git-guardrails-claude-code](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Hooks that refuse push, reset --hard, clean, and branch -D before they run. 242.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1505,7 +1505,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write a SKILL.md or AGENTS.md that works** with [writing-for-agents](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). How to write documents whose reader is a model, not a person. 242.3k★, MIT.
+- **Write a SKILL.md or AGENTS.md that works** with [writing-for-agents](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). How to write documents whose reader is a model, not a person. 242.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1641,7 +1641,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Subagents and agent teams
 
-- **Hand independent tasks to child sessions** with [subagent-driven-development](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Executes a plan by delegating the parts that do not share state. 279.8k★, MIT.
+- **Hand independent tasks to child sessions** with [subagent-driven-development](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Executes a plan by delegating the parts that do not share state. 279.9k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1652,7 +1652,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Fan work out when two or more tasks are independent** with [dispatching-parallel-agents](https://github.com/obra/superpowers) by [obra](https://github.com/obra). The decision rule for when parallelism helps, and when it just costs tokens. 279.8k★, MIT.
+- **Fan work out when two or more tasks are independent** with [dispatching-parallel-agents](https://github.com/obra/superpowers) by [obra](https://github.com/obra). The decision rule for when parallelism helps, and when it just costs tokens. 279.9k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1663,7 +1663,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Keep the main context clean while investigating** with [research](https://github.com/warpdotdev/common-skills) by [warpdotdev](https://github.com/warpdotdev). Pushes noisy searching into subagents and works from the distilled answer. 480★, MIT.
+- **Keep the main context clean while investigating** with [research](https://github.com/warpdotdev/common-skills) by [warpdotdev](https://github.com/warpdotdev). Pushes noisy searching into subagents and works from the distilled answer. 482★, MIT.
 
   <details>
   <summary>Install</summary>
