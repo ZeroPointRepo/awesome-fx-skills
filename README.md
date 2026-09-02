@@ -1578,7 +1578,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Read and update the Linear issue you are working on** with [orca-linear](https://github.com/stablyai/orca) by [stablyai](https://github.com/stablyai). Reads the linked issue for the current branch and keeps it current. 59.4k★, MIT.
+- **Read and update the Linear issue you are working on** with [orca-linear](https://github.com/stablyai/orca) by [stablyai](https://github.com/stablyai). Reads the linked issue for the current branch and keeps it current. 59.5k★, MIT.
 
   <details>
   <summary>Install</summary>
