@@ -1,0 +1,437 @@
+{
+  "_note": "GitHub numeric repository id for every entry this list links to, recorded the first time the entry resolves. The id is immutable and survives a rename or a transfer; the slug does not, and once a vacated slug is claimed by somebody else, a slug-keyed lookup returns the new owner and reports the stale link as correct. Written by .github/scripts/resolve-names.mjs, never edited by hand.",
+  "ids": {
+    "2lab-ai/xfx": {
+      "id": 1342036467,
+      "full_name": "2lab-ai/xfx"
+    },
+    "addyosmani/agent-skills": {
+      "id": 1158722119,
+      "full_name": "addyosmani/agent-skills"
+    },
+    "addyosmani/web-quality-skills": {
+      "id": 1136782037,
+      "full_name": "addyosmani/web-quality-skills"
+    },
+    "agent2x0r/fx-lan": {
+      "id": 1343248415,
+      "full_name": "agent2x0r/fx-lan"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "id": 1140828898,
+      "full_name": "anthropics/knowledge-work-plugins"
+    },
+    "anthropics/skills": {
+      "id": 1061953414,
+      "full_name": "anthropics/skills"
+    },
+    "antibrow/anti-detect-browser-skills": {
+      "id": 1185015774,
+      "full_name": "antibrow/anti-detect-browser-skills"
+    },
+    "apollographql/skills": {
+      "id": 1140259463,
+      "full_name": "apollographql/skills"
+    },
+    "arvindrk/extract-design-system": {
+      "id": 1188886556,
+      "full_name": "arvindrk/extract-design-system"
+    },
+    "avdlee/swift-concurrency-agent-skill": {
+      "id": 1129568168,
+      "full_name": "AvdLee/Swift-Concurrency-Agent-Skill"
+    },
+    "avdlee/swiftui-agent-skill": {
+      "id": 1139114532,
+      "full_name": "AvdLee/SwiftUI-Agent-Skill"
+    },
+    "bbylw/vercel-fx-cn": {
+      "id": 1338889593,
+      "full_name": "bbylw/vercel-fx-cn"
+    },
+    "better-auth/skills": {
+      "id": 1080121643,
+      "full_name": "better-auth/skills"
+    },
+    "callstackincubator/agent-skills": {
+      "id": 1134388286,
+      "full_name": "callstackincubator/agent-skills"
+    },
+    "chromedevtools/chrome-devtools-mcp": {
+      "id": 1054793726,
+      "full_name": "ChromeDevTools/chrome-devtools-mcp"
+    },
+    "claude-office-skills/skills": {
+      "id": 1145199131,
+      "full_name": "claude-office-skills/skills"
+    },
+    "clerk/skills": {
+      "id": 1129250447,
+      "full_name": "clerk/skills"
+    },
+    "cloudflare/skills": {
+      "id": 1113922795,
+      "full_name": "cloudflare/skills"
+    },
+    "coderabbitai/skills": {
+      "id": 1145744625,
+      "full_name": "coderabbitai/skills"
+    },
+    "codingstark-dev/fx-on-workers": {
+      "id": 1342302576,
+      "full_name": "codingstark-dev/fx-on-workers"
+    },
+    "coreyhaines31/marketingskills": {
+      "id": 1135212071,
+      "full_name": "coreyhaines31/marketingskills"
+    },
+    "cursor/plugins": {
+      "id": 1140229822,
+      "full_name": "cursor/plugins"
+    },
+    "da-beda/fx-sandbox": {
+      "id": 1339833358,
+      "full_name": "da-beda/fx-sandbox"
+    },
+    "dammyjay93/interface-design": {
+      "id": 1127982345,
+      "full_name": "Dammyjay93/interface-design"
+    },
+    "elijah7x/fx-bridge": {
+      "id": 1340675317,
+      "full_name": "elijah7x/fx-bridge"
+    },
+    "emilkowalski/skills": {
+      "id": 1183325896,
+      "full_name": "emilkowalski/skills"
+    },
+    "eng2007/fx-windows": {
+      "id": 1341187788,
+      "full_name": "eng2007/fx-windows"
+    },
+    "firebase/agent-skills": {
+      "id": 1154880547,
+      "full_name": "firebase/agent-skills"
+    },
+    "firecrawl/cli": {
+      "id": 1130001700,
+      "full_name": "firecrawl/cli"
+    },
+    "firecrawl/firecrawl-workflows": {
+      "id": 1239022297,
+      "full_name": "firecrawl/firecrawl-workflows"
+    },
+    "get-convex/agent-skills": {
+      "id": 1154251021,
+      "full_name": "get-convex/agent-skills"
+    },
+    "getsentry/skills": {
+      "id": 1128612043,
+      "full_name": "getsentry/skills"
+    },
+    "github/awesome-copilot": {
+      "id": 1000362065,
+      "full_name": "github/awesome-copilot"
+    },
+    "github/github-mcp-server": {
+      "id": 942771284,
+      "full_name": "github/github-mcp-server"
+    },
+    "google-gemini/gemini-cli": {
+      "id": 968197216,
+      "full_name": "google-gemini/gemini-cli"
+    },
+    "google-labs-code/stitch-skills": {
+      "id": 1135847870,
+      "full_name": "google-labs-code/stitch-skills"
+    },
+    "google/agents-cli": {
+      "id": 1205137520,
+      "full_name": "google/agents-cli"
+    },
+    "google/skills": {
+      "id": 1197652028,
+      "full_name": "google/skills"
+    },
+    "googleworkspace/cli": {
+      "id": 1171026502,
+      "full_name": "googleworkspace/cli"
+    },
+    "greensock/gsap-skills": {
+      "id": 1172781277,
+      "full_name": "greensock/gsap-skills"
+    },
+    "hashicorp/agent-skills": {
+      "id": 1092101865,
+      "full_name": "hashicorp/agent-skills"
+    },
+    "heroui-inc/heroui": {
+      "id": 360522116,
+      "full_name": "heroui-inc/heroui"
+    },
+    "heygen-com/hyperframes": {
+      "id": 1177402105,
+      "full_name": "heygen-com/hyperframes"
+    },
+    "iamdemetris/fx-openai": {
+      "id": 1339425326,
+      "full_name": "iamdemetris/fx-openai"
+    },
+    "ibelick/ui-skills": {
+      "id": 1129930192,
+      "full_name": "ibelick/ui-skills"
+    },
+    "intellectronica/agent-skills": {
+      "id": 1138465232,
+      "full_name": "intellectronica/agent-skills"
+    },
+    "jagenaujagenau/fx-ruby": {
+      "id": 1341831830,
+      "full_name": "jagenaujagenau/fx-ruby"
+    },
+    "jakubkrehel/skills": {
+      "id": 1296300799,
+      "full_name": "jakubkrehel/skills"
+    },
+    "jeffallan/claude-skills": {
+      "id": 1080070047,
+      "full_name": "Jeffallan/claude-skills"
+    },
+    "jimliu/baoyu-skills": {
+      "id": 1133207146,
+      "full_name": "JimLiu/baoyu-skills"
+    },
+    "juliusbrussee/caveman": {
+      "id": 1201173969,
+      "full_name": "JuliusBrussee/caveman"
+    },
+    "keejkrej/faku": {
+      "id": 1340999796,
+      "full_name": "keejkrej/faku"
+    },
+    "lakphy/chrome-fx": {
+      "id": 1339934424,
+      "full_name": "Lakphy/chrome-fx"
+    },
+    "leeeon233/fx-rs": {
+      "id": 1339010487,
+      "full_name": "Leeeon233/fx-rs"
+    },
+    "leonxlnx/taste-skill": {
+      "id": 1162099055,
+      "full_name": "Leonxlnx/taste-skill"
+    },
+    "linear/linear-release": {
+      "id": 1149574624,
+      "full_name": "linear/linear-release"
+    },
+    "makenotion/skills": {
+      "id": 1183719628,
+      "full_name": "makenotion/skills"
+    },
+    "mattpocock/skills": {
+      "id": 1148788086,
+      "full_name": "mattpocock/skills"
+    },
+    "mcp-use/mcp-use": {
+      "id": 956472076,
+      "full_name": "mcp-use/mcp-use"
+    },
+    "microsoft/azure-skills": {
+      "id": 1167823778,
+      "full_name": "microsoft/azure-skills"
+    },
+    "microsoft/playwright-mcp": {
+      "id": 952688112,
+      "full_name": "microsoft/playwright-mcp"
+    },
+    "modelcontextprotocol/servers": {
+      "id": 890668799,
+      "full_name": "modelcontextprotocol/servers"
+    },
+    "neondatabase/agent-skills": {
+      "id": 1138578572,
+      "full_name": "neondatabase/agent-skills"
+    },
+    "nicolasmontone/fx-inside-function": {
+      "id": 1341148420,
+      "full_name": "NicolasMontone/fx-inside-function"
+    },
+    "obra/superpowers": {
+      "id": 1073224795,
+      "full_name": "obra/superpowers"
+    },
+    "openai/skills": {
+      "id": 1103643573,
+      "full_name": "openai/skills"
+    },
+    "othmanadi/planning-with-files": {
+      "id": 1127110039,
+      "full_name": "OthmanAdi/planning-with-files"
+    },
+    "parallel-web/parallel-agent-skills": {
+      "id": 1151665142,
+      "full_name": "parallel-web/parallel-agent-skills"
+    },
+    "pexoai/pexo-skills": {
+      "id": 1172509326,
+      "full_name": "pexoai/pexo-skills"
+    },
+    "planetscale/database-skills": {
+      "id": 1160983409,
+      "full_name": "planetscale/database-skills"
+    },
+    "prime-skills/runcomfy-agent-skills": {
+      "id": 1225154854,
+      "full_name": "prime-skills/runcomfy-agent-skills"
+    },
+    "prisma/skills": {
+      "id": 1140468701,
+      "full_name": "prisma/skills"
+    },
+    "redstar-systems/fx-any": {
+      "id": 1339831554,
+      "full_name": "redstar-systems/fx-any"
+    },
+    "resciencelab/opc-skills": {
+      "id": 1136152017,
+      "full_name": "ReScienceLab/opc-skills"
+    },
+    "resend/email-best-practices": {
+      "id": 1140049499,
+      "full_name": "resend/email-best-practices"
+    },
+    "resend/react-email": {
+      "id": 538663825,
+      "full_name": "resend/react-email"
+    },
+    "rohitg00/agentmemory": {
+      "id": 1166408297,
+      "full_name": "rohitg00/agentmemory"
+    },
+    "samber/cc-skills-golang": {
+      "id": 1188322477,
+      "full_name": "samber/cc-skills-golang"
+    },
+    "sanyuan0704/sanyuan-skills": {
+      "id": 1149477047,
+      "full_name": "sanyuan0704/sanyuan-skills"
+    },
+    "schpet/linear-cli": {
+      "id": 893112240,
+      "full_name": "schpet/linear-cli"
+    },
+    "shelajev/fx-sbx-kit": {
+      "id": 1342091718,
+      "full_name": "shelajev/fx-sbx-kit"
+    },
+    "sickn33/agentic-awesome-skills": {
+      "id": 1134426800,
+      "full_name": "sickn33/agentic-awesome-skills"
+    },
+    "spillwavesolutions/design-doc-mermaid": {
+      "id": 1088422674,
+      "full_name": "SpillwaveSolutions/design-doc-mermaid"
+    },
+    "stablyai/orca": {
+      "id": 1183888342,
+      "full_name": "stablyai/orca"
+    },
+    "supabase/agent-skills": {
+      "id": 1135501937,
+      "full_name": "supabase/agent-skills"
+    },
+    "tanis90/pdf-converter-mineru": {
+      "id": 1195983492,
+      "full_name": "tanis90/pdf-converter-mineru"
+    },
+    "tavily-ai/skills": {
+      "id": 1140169825,
+      "full_name": "tavily-ai/skills"
+    },
+    "temikus/homebrew-fx": {
+      "id": 1342584435,
+      "full_name": "Temikus/homebrew-fx"
+    },
+    "tommybez/fx-review-action": {
+      "id": 1340544179,
+      "full_name": "TommyBez/fx-review-action"
+    },
+    "trailofbits/skills": {
+      "id": 1134447175,
+      "full_name": "trailofbits/skills"
+    },
+    "twostraws/swiftui-agent-skill": {
+      "id": 1173845549,
+      "full_name": "twostraws/SwiftUI-Agent-Skill"
+    },
+    "useai-pro/openclaw-skills-security": {
+      "id": 1150569470,
+      "full_name": "UseAI-pro/openclaw-skills-security"
+    },
+    "vercel-labs/agent-browser": {
+      "id": 1132001614,
+      "full_name": "vercel-labs/agent-browser"
+    },
+    "vercel-labs/agent-skills": {
+      "id": 1112540808,
+      "full_name": "vercel-labs/agent-skills"
+    },
+    "vercel-labs/fx": {
+      "id": 1330702515,
+      "full_name": "vercel-labs/fx"
+    },
+    "vuejs-ai/skills": {
+      "id": 1138832642,
+      "full_name": "vuejs-ai/skills"
+    },
+    "warpdotdev/common-skills": {
+      "id": 1226053220,
+      "full_name": "warpdotdev/common-skills"
+    },
+    "wshobson/agents": {
+      "id": 1025856648,
+      "full_name": "wshobson/agents"
+    },
+    "xeron2000/fx-gateway-proxy": {
+      "id": 1339044753,
+      "full_name": "Xeron2000/fx-gateway-proxy"
+    },
+    "yuktikholiwal/fx-in-a-tab": {
+      "id": 1341299331,
+      "full_name": "YuktiKholiwal/fx-in-a-tab"
+    },
+    "zeropointrepo/awesome-agent-plugins": {
+      "id": 1332056401,
+      "full_name": "ZeroPointRepo/awesome-agent-plugins"
+    },
+    "zeropointrepo/awesome-cursor-plugins": {
+      "id": 1345761300,
+      "full_name": "ZeroPointRepo/awesome-cursor-plugins"
+    },
+    "zeropointrepo/awesome-dsh-plugins": {
+      "id": 1341546900,
+      "full_name": "ZeroPointRepo/awesome-dsh-plugins"
+    },
+    "zeropointrepo/awesome-grok-bot": {
+      "id": 1332067090,
+      "full_name": "ZeroPointRepo/awesome-grok-bot"
+    },
+    "zeropointrepo/awesome-hermes-skills": {
+      "id": 1223597497,
+      "full_name": "ZeroPointRepo/awesome-hermes-skills"
+    },
+    "zeropointrepo/youtube-mcp": {
+      "id": 1104811310,
+      "full_name": "ZeroPointRepo/youtube-mcp"
+    },
+    "zeropointrepo/youtube-skills": {
+      "id": 1147294830,
+      "full_name": "ZeroPointRepo/youtube-skills"
+    },
+    "zeropointrepo/zillow-mcp": {
+      "id": 1291916762,
+      "full_name": "ZeroPointRepo/zillow-mcp"
+    }
+  }
+}
