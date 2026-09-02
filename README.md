@@ -53,7 +53,7 @@ WebAssembly module. This list is what that buys you, sorted by the job you are t
 - [Good to know](#good-to-know)
 
 <!-- fullcatalog:start -->
-- **Full catalog:** every fx skill this list resolves (1274) in [CATALOG.md](CATALOG.md)
+- **Full catalog:** every fx skill this list resolves (1266) in [CATALOG.md](CATALOG.md)
 <!-- fullcatalog:end -->
 
 ---
@@ -258,7 +258,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Have the agent review its own work before you see it** with [requesting-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Runs before a merge or a hand-off and checks the work against what was actually asked for. 280.5k★, MIT.
+- **Have the agent review its own work before you see it** with [requesting-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Runs before a merge or a hand-off and checks the work against what was actually asked for. 280.6k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -269,7 +269,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Push back on review feedback that is wrong** with [receiving-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Verifies a suggestion technically before implementing it, instead of complying with everything. 280.5k★, MIT.
+- **Push back on review feedback that is wrong** with [receiving-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Verifies a suggestion technically before implementing it, instead of complying with everything. 280.6k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -359,7 +359,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Test and debug
 
-- **Stop guessing at bugs** with [systematic-debugging](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Forces a hypothesis and a reproduction before any fix is proposed. The most-installed debugging skill there is. 280.5k★, MIT.
+- **Stop guessing at bugs** with [systematic-debugging](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Forces a hypothesis and a reproduction before any fix is proposed. The most-installed debugging skill there is. 280.6k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1387,7 +1387,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Work on a feature without touching your workspace** with [using-git-worktrees](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Sets up an isolated worktree before a long change begins. 280.5k★, MIT.
+- **Work on a feature without touching your workspace** with [using-git-worktrees](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Sets up an isolated worktree before a long change begins. 280.6k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1646,7 +1646,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Subagents and agent teams
 
-- **Hand independent tasks to child sessions** with [subagent-driven-development](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Executes a plan by delegating the parts that do not share state. 280.5k★, MIT.
+- **Hand independent tasks to child sessions** with [subagent-driven-development](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Executes a plan by delegating the parts that do not share state. 280.6k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1657,7 +1657,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Fan work out when two or more tasks are independent** with [dispatching-parallel-agents](https://github.com/obra/superpowers) by [obra](https://github.com/obra). The decision rule for when parallelism helps, and when it just costs tokens. 280.5k★, MIT.
+- **Fan work out when two or more tasks are independent** with [dispatching-parallel-agents](https://github.com/obra/superpowers) by [obra](https://github.com/obra). The decision rule for when parallelism helps, and when it just costs tokens. 280.6k★, MIT.
 
   <details>
   <summary>Install</summary>

@@ -46,32 +46,31 @@ organised list is [README.md](README.md).
 | [supabase](https://github.com/supabase/agent-skills) | Work with Supabase without guessing the API | 251.7k | 2.6k | `/skills add supabase/agent-skills --skill supabase` |
 | [imagegen-frontend-mobile](https://github.com/Leonxlnx/taste-skill) | Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop | 251.2k | 83.4k | `/skills add Leonxlnx/taste-skill --skill imagegen-frontend-mobile` |
 | [prisma-postgres](https://github.com/prisma/skills) | Create and operate a Prisma Postgres database | 247.7k | 54 | `/skills add prisma/skills --skill prisma-postgres` |
-| [systematic-debugging](https://github.com/obra/superpowers) | Stop guessing at bugs | 244.8k | 280.5k | `/skills add obra/superpowers --skill systematic-debugging` |
+| [systematic-debugging](https://github.com/obra/superpowers) | Stop guessing at bugs | 244.8k | 280.6k | `/skills add obra/superpowers --skill systematic-debugging` |
 | [emil-design-eng](https://github.com/emilkowalski/skills) | Get the small details that make software feel finished | 244k | 34.6k | `/skills add emilkowalski/skills --skill emil-design-eng` |
 | [prisma-postgres-setup](https://github.com/prisma/skills) |  | 242k | 54 | `/skills add prisma/skills --skill prisma-postgres-setup` |
 | [general-video](https://github.com/heygen-com/hyperframes) | Write HTML. Render video. Built for agents. | 224.4k | 43.6k | `/skills add heygen-com/hyperframes --skill general-video` |
-| [requesting-code-review](https://github.com/obra/superpowers) | Have the agent review its own work before you see it | 216.5k | 280.5k | `/skills add obra/superpowers --skill requesting-code-review` |
+| [requesting-code-review](https://github.com/obra/superpowers) | Have the agent review its own work before you see it | 216.5k | 280.6k | `/skills add obra/superpowers --skill requesting-code-review` |
 | [design-taste-frontend-v1](https://github.com/Leonxlnx/taste-skill) | Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop | 209.4k | 83.4k | `/skills add Leonxlnx/taste-skill --skill design-taste-frontend-v1` |
 | [product-launch-video](https://github.com/heygen-com/hyperframes) | Turn a product URL into a launch video | 208.4k | 43.6k | `/skills add heygen-com/hyperframes --skill product-launch-video` |
 | [vercel-react-native-skills](https://github.com/vercel-labs/agent-skills) | Build React Native and Expo apps well | 200.8k | 30.7k | `/skills add vercel-labs/agent-skills --skill vercel-react-native-skills` |
 | [seo-audit](https://github.com/coreyhaines31/marketingskills) | Find out why the site is not ranking | 198.9k | 46.5k | `/skills add coreyhaines31/marketingskills --skill seo-audit` |
-| [subagent-driven-development](https://github.com/obra/superpowers) | Hand independent tasks to child sessions | 193.3k | 280.5k | `/skills add obra/superpowers --skill subagent-driven-development` |
+| [subagent-driven-development](https://github.com/obra/superpowers) | Hand independent tasks to child sessions | 193.3k | 280.6k | `/skills add obra/superpowers --skill subagent-driven-development` |
 | [pdf](https://github.com/anthropics/skills) | Read, split, merge, and fill PDFs | 188.9k | 173.1k | `/skills add anthropics/skills --skill pdf` |
 | [pr-to-video](https://github.com/heygen-com/hyperframes) | Turn a pull request into an explainer video | 186.8k | 43.6k | `/skills add heygen-com/hyperframes --skill pr-to-video` |
 | [writing-for-agents](https://github.com/mattpocock/skills) | Write a SKILL.md or AGENTS.md that works | 184.5k | 244.3k | `/skills add mattpocock/skills --skill writing-for-agents` |
-| [receiving-code-review](https://github.com/obra/superpowers) | Push back on review feedback that is wrong | 182.5k | 280.5k | `/skills add obra/superpowers --skill receiving-code-review` |
-| [dispatching-parallel-agents](https://github.com/obra/superpowers) | Fan work out when two or more tasks are independent | 179.9k | 280.5k | `/skills add obra/superpowers --skill dispatching-parallel-agents` |
-| [using-git-worktrees](https://github.com/obra/superpowers) | Work on a feature without touching your workspace | 179.4k | 280.5k | `/skills add obra/superpowers --skill using-git-worktrees` |
+| [receiving-code-review](https://github.com/obra/superpowers) | Push back on review feedback that is wrong | 182.5k | 280.6k | `/skills add obra/superpowers --skill receiving-code-review` |
+| [dispatching-parallel-agents](https://github.com/obra/superpowers) | Fan work out when two or more tasks are independent | 179.9k | 280.6k | `/skills add obra/superpowers --skill dispatching-parallel-agents` |
+| [using-git-worktrees](https://github.com/obra/superpowers) | Work on a feature without touching your workspace | 179.4k | 280.6k | `/skills add obra/superpowers --skill using-git-worktrees` |
 | [music-to-video](https://github.com/heygen-com/hyperframes) | Write HTML. Render video. Built for agents. | 166.2k | 43.6k | `/skills add heygen-com/hyperframes --skill music-to-video` |
 | [python-appservice-deploy](https://github.com/microsoft/azure-skills) | Official agent plugin providing skills and MCP server configurations for Azure scenarios. | 161.5k | 1.4k | `/skills add microsoft/azure-skills --skill python-appservice-deploy` |
 | [webapp-testing](https://github.com/anthropics/skills) | Drive your local app with Playwright | 148.1k | 173.1k | `/skills add anthropics/skills --skill webapp-testing` |
-| [orchestration](https://github.com/stablyai/orca) | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own… | 144.5k | 59.4k | `/skills add stablyai/orca --skill orchestration` |
+| [orchestration](https://github.com/stablyai/orca) | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own… | 144.5k | 59.5k | `/skills add stablyai/orca --skill orchestration` |
 | [firebase-basics](https://github.com/firebase/agent-skills) | Agent Skills for Firebase | 143.7k | 432 | `/skills add firebase/agent-skills --skill firebase-basics` |
 | [firebase-auth-basics](https://github.com/firebase/agent-skills) | Agent Skills for Firebase | 142.6k | 432 | `/skills add firebase/agent-skills --skill firebase-auth-basics` |
 | [firebase-hosting-basics](https://github.com/firebase/agent-skills) | Agent Skills for Firebase | 139.2k | 432 | `/skills add firebase/agent-skills --skill firebase-hosting-basics` |
 | [firebase-app-hosting-basics](https://github.com/firebase/agent-skills) | Deploy a Next.js or Angular app with SSR | 138.7k | 432 | `/skills add firebase/agent-skills --skill firebase-app-hosting-basics` |
 | [firebase-data-connect](https://github.com/firebase/agent-skills) | Agent Skills for Firebase | 137.9k | 432 | `/skills add firebase/agent-skills --skill firebase-data-connect` |
-| [neon-postgres](https://github.com/neondatabase/agent-skills) | Work with Neon Postgres and branching | 130.6k | 85 | `/skills add neondatabase/agent-skills --skill neon-postgres` |
 | [extract-design-system](https://github.com/arvindrk/extract-design-system) | Pull a design system out of a website you like | 128.4k | 197 | `/skills add arvindrk/extract-design-system --skill extract-design-system` |
 | [programmatic-seo](https://github.com/coreyhaines31/marketingskills) | Build template-driven pages at scale | 126.3k | 46.5k | `/skills add coreyhaines31/marketingskills --skill programmatic-seo` |
 | [google-agents-cli-adk-code](https://github.com/google/agents-cli) | The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI… | 118.8k | 5.8k | `/skills add google/agents-cli --skill google-agents-cli-adk-code` |
@@ -96,7 +95,6 @@ organised list is [README.md](README.md).
 | [xcode-project-setup](https://github.com/firebase/agent-skills) | Agent Skills for Firebase | 99.8k | 432 | `/skills add firebase/agent-skills --skill xcode-project-setup` |
 | [vercel-cli-with-tokens](https://github.com/vercel-labs/agent-skills) | Deploy from CI with a token instead of a login | 91.3k | 30.7k | `/skills add vercel-labs/agent-skills --skill vercel-cli-with-tokens` |
 | [customer-research](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. | 87.6k | 46.5k | `/skills add coreyhaines31/marketingskills --skill customer-research` |
-| [neon](https://github.com/neondatabase/agent-skills) | Agent Skills for Neon Severless Postgres | 85k | 85 | `/skills add neondatabase/agent-skills --skill neon` |
 | [firecrawl-agent](https://github.com/firecrawl/cli) | Scrape and crawl sites from the session | 78.7k | 614 | `/skills add firecrawl/cli --skill firecrawl-agent` |
 | [amazon-product-research](https://github.com/nexscope-ai/Amazon-Skills) | Free AI agent skills for Amazon sellers— keyword research, competitor analysis, listing audit & more. Works… | 77.7k | 620 | `/skills add nexscope-ai/Amazon-Skills --skill amazon-product-research` |
 | [notion-api](https://github.com/intellectronica/agent-skills) | Call the Notion REST API directly | 71.6k | 290 | `/skills add intellectronica/agent-skills --skill notion-api` |
@@ -306,7 +304,7 @@ organised list is [README.md](README.md).
 | [django-security](https://github.com/affaan-m/ECC) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first… | 9.9k | 245.9k | `/skills add affaan-m/ECC --skill django-security` |
 | [python-observability](https://github.com/wshobson/agents) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and… | 9.9k | 39.3k | `/skills add wshobson/agents --skill python-observability` |
 | [python-configuration](https://github.com/wshobson/agents) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and… | 9.9k | 39.3k | `/skills add wshobson/agents --skill python-configuration` |
-| [orca-linear](https://github.com/stablyai/orca) | Read and update the Linear issue you are working on | 9.9k | 59.4k | `/skills add stablyai/orca --skill orca-linear` |
+| [orca-linear](https://github.com/stablyai/orca) | Read and update the Linear issue you are working on | 9.9k | 59.5k | `/skills add stablyai/orca --skill orca-linear` |
 | [market-research](https://github.com/affaan-m/ECC) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first… | 9.8k | 245.9k | `/skills add affaan-m/ECC --skill market-research` |
 | [python-resilience](https://github.com/wshobson/agents) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and… | 9.8k | 39.3k | `/skills add wshobson/agents --skill python-resilience` |
 | [dataverse-python-production-code](https://github.com/github/awesome-copilot) | Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub… | 9.8k | 38.5k | `/skills add github/awesome-copilot --skill dataverse-python-production-code` |
@@ -462,7 +460,7 @@ organised list is [README.md](README.md).
 | [finance-expert](https://github.com/personamanagmentlayer/pcl) | Persona Control Language (PCL) | 6.2k | 41 | `/skills add personamanagmentlayer/pcl --skill finance-expert` |
 | [penetration-testing-with-strix](https://github.com/usestrix/strix) | Open-source AI penetration testing tool to find and fix your app’s vulnerabilities. | 6.2k | 60k | `/skills add usestrix/strix --skill penetration-testing-with-strix` |
 | [researchwrite](https://github.com/Yuan1z0825/nature-skills) | 符合nature论文学术表达和科研绘图的Skill | 6.2k | 38.5k | `/skills add Yuan1z0825/nature-skills --skill researchwrite` |
-| [deep-research](https://github.com/Imbad0202/academic-research-skills) | Academic Research Skills for Claude Code: research → write → review → revise → finalize | 6.1k | 45.1k | `/skills add Imbad0202/academic-research-skills --skill deep-research` |
+| [deep-research](https://github.com/Imbad0202/academic-research-skills) | Academic Research Skills for Claude Code: research → write → review → revise → finalize | 6.1k | 45.2k | `/skills add Imbad0202/academic-research-skills --skill deep-research` |
 | [google-cloud-waf-performance-optimization](https://github.com/google/skills) | Agent Skills for Google products and technologies | 6.1k | 19.2k | `/skills add google/skills --skill google-cloud-waf-performance-optimization` |
 | [amazon-bedrock](https://github.com/aws/agent-toolkit-for-aws) | Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS | 6.1k | 2.5k | `/skills add aws/agent-toolkit-for-aws --skill amazon-bedrock` |
 | [planning-with-files-es](https://github.com/OthmanAdi/planning-with-files) | Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans,… | 6k | 26.6k | `/skills add OthmanAdi/planning-with-files --skill planning-with-files-es` |
@@ -619,7 +617,6 @@ organised list is [README.md](README.md).
 | [minimax-pdf](https://github.com/MiniMax-AI/skills) |  | 3.7k | 13.5k | `/skills add MiniMax-AI/skills --skill minimax-pdf` |
 | [aws-lambda-managed-instances](https://github.com/aws/agent-toolkit-for-aws) | Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS | 3.6k | 2.5k | `/skills add aws/agent-toolkit-for-aws --skill aws-lambda-managed-instances` |
 | [video-spec-builder](https://github.com/feicaiclub/video-spec-builder) | video-spec-builder —— 把我想做个视频逼成一份精确到秒的分镜脚本 video-spec.md,交给 HyperFrames 渲染。一条命令装到 Claude Code / Cursor /… | 3.6k | 945 | `/skills add feicaiclub/video-spec-builder --skill video-spec-builder` |
-| [neon-postgres-branches](https://github.com/neondatabase/agent-skills) | Agent Skills for Neon Severless Postgres | 3.6k | 85 | `/skills add neondatabase/agent-skills --skill neon-postgres-branches` |
 | [slack-messaging](https://github.com/anthropics/knowledge-work-plugins) | Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork | 3.6k | 23.8k | `/skills add anthropics/knowledge-work-plugins --skill slack-messaging` |
 | [aws-networking](https://github.com/aws/agent-toolkit-for-aws) | Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS | 3.6k | 2.5k | `/skills add aws/agent-toolkit-for-aws --skill aws-networking` |
 | [querying-aws-s3](https://github.com/aws/agent-toolkit-for-aws) | Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS | 3.6k | 2.5k | `/skills add aws/agent-toolkit-for-aws --skill querying-aws-s3` |
@@ -667,7 +664,6 @@ organised list is [README.md](README.md).
 | [swiftui-ui-patterns](https://github.com/Dimillian/Skills) | My Codex Skills | 3.2k | 3.9k | `/skills add Dimillian/Skills --skill swiftui-ui-patterns` |
 | [mongodb-mcp-setup](https://github.com/mongodb/agent-skills) | Use the official MongoDB Skills with your favorite coding agent to build faster. | 3.2k | 181 | `/skills add mongodb/agent-skills --skill mongodb-mcp-setup` |
 | [datalineage-bigquery-asset-impact-analysis](https://github.com/google/skills) | Agent Skills for Google products and technologies | 3.2k | 19.2k | `/skills add google/skills --skill datalineage-bigquery-asset-impact-analysis` |
-| [neon-postgres-egress-optimizer](https://github.com/neondatabase/agent-skills) | Agent Skills for Neon Severless Postgres | 3.2k | 85 | `/skills add neondatabase/agent-skills --skill neon-postgres-egress-optimizer` |
 | [android-pentesting-tricks](https://github.com/yaklang/hack-skills) | Helping AI Agent become an awesome practical hacker! | 3.2k | 2k | `/skills add yaklang/hack-skills --skill android-pentesting-tricks` |
 | [deploying-custom-domain-rest-api](https://github.com/aws/agent-toolkit-for-aws) | Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS | 3.2k | 2.5k | `/skills add aws/agent-toolkit-for-aws --skill deploying-custom-domain-rest-api` |
 | [seo-audit](https://github.com/anthropics/knowledge-work-plugins) | Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork | 3.2k | 23.8k | `/skills add anthropics/knowledge-work-plugins --skill seo-audit` |
@@ -806,7 +802,7 @@ organised list is [README.md](README.md).
 | [stock-correlation](https://github.com/himself65/finance-skills) | A collection of skills for AI financial analysis. | 2.3k | 3.3k | `/skills add himself65/finance-skills --skill stock-correlation` |
 | [mcp-configure](https://github.com/launchdarkly/ai-tooling) | LaunchDarkly's official AI tooling | 2.3k | 25 | `/skills add launchdarkly/ai-tooling --skill mcp-configure` |
 | [a11y-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents | 2.3k | 50.5k | `/skills add ChromeDevTools/chrome-devtools-mcp --skill a11y-debugging` |
-| [video-report](https://github.com/remotion-dev/remotion) | 🎥 Make videos programmatically with React | 2.3k | 58k | `/skills add remotion-dev/remotion --skill video-report` |
+| [video-report](https://github.com/remotion-dev/remotion) | 🎥 Make videos programmatically with React | 2.3k | 58.1k | `/skills add remotion-dev/remotion --skill video-report` |
 | [typescript-magician](https://github.com/mcollina/skills) | My own collection of skills for modern Node.js development | 2.3k | 1.9k | `/skills add mcollina/skills --skill typescript-magician` |
 | [azure-image-builder](https://github.com/hashicorp/agent-skills) | A collection of Agent skills and Claude Code plugins for HashiCorp products. | 2.3k | 857 | `/skills add hashicorp/agent-skills --skill azure-image-builder` |
 | [google-cloud-global-frontend-configuration](https://github.com/google/skills) | Agent Skills for Google products and technologies | 2.3k | 19.2k | `/skills add google/skills --skill google-cloud-global-frontend-configuration` |
@@ -861,7 +857,6 @@ organised list is [README.md](README.md).
 | [twitter-reader](https://github.com/himself65/finance-skills) | A collection of skills for AI financial analysis. | 2k | 3.3k | `/skills add himself65/finance-skills --skill twitter-reader` |
 | [pubmed-database](https://github.com/google-deepmind/science-skills) | GDM Science Skills to speed up agentic scientific workflows with better grounding and higher token… | 2k | 2.8k | `/skills add google-deepmind/science-skills --skill pubmed-database` |
 | [company-valuation](https://github.com/himself65/finance-skills) | A collection of skills for AI financial analysis. | 2k | 3.3k | `/skills add himself65/finance-skills --skill company-valuation` |
-| [neon-object-storage](https://github.com/neondatabase/agent-skills) | Agent Skills for Neon Severless Postgres | 2k | 85 | `/skills add neondatabase/agent-skills --skill neon-object-storage` |
 | [document-writer](https://github.com/onmax/nuxt-skills) | Vue, Nuxt, and NuxtHub skills for AI coding assistants. | 2k | 703 | `/skills add onmax/nuxt-skills --skill document-writer` |
 | [tailwindcss-mobile-first](https://github.com/JosiahSiegel/claude-plugin-marketplace) |  | 2k | 53 | `/skills add JosiahSiegel/claude-plugin-marketplace --skill tailwindcss-mobile-first` |
 | [chakra-ui-refactor](https://github.com/chakra-ui/chakra-ui) | Chakra UI is a component system for building SaaS products with speed ⚡️ | 2k | 40.6k | `/skills add chakra-ui/chakra-ui --skill chakra-ui-refactor` |
@@ -885,7 +880,6 @@ organised list is [README.md](README.md).
 | [aws-step-functions](https://github.com/aws/agent-toolkit-for-aws) | Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS | 1.9k | 2.5k | `/skills add aws/agent-toolkit-for-aws --skill aws-step-functions` |
 | [langgraph-python-quickstart](https://github.com/langchain-ai/langchain-skills) |  | 1.9k | 1.2k | `/skills add langchain-ai/langchain-skills --skill langgraph-python-quickstart` |
 | [react-native](https://github.com/vercel-labs/json-render) | The Generative UI framework | 1.9k | 16.1k | `/skills add vercel-labs/json-render --skill react-native` |
-| [neon-functions](https://github.com/neondatabase/agent-skills) | Agent Skills for Neon Severless Postgres | 1.9k | 85 | `/skills add neondatabase/agent-skills --skill neon-functions` |
 | [finance-metrics-quickref](https://github.com/deanpeters/Product-Manager-Skills) | Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI… | 1.9k | 6.8k | `/skills add deanpeters/Product-Manager-Skills --skill finance-metrics-quickref` |
 | [netlify-database](https://github.com/netlify/context-and-tools) |  | 1.9k | 36 | `/skills add netlify/context-and-tools --skill netlify-database` |
 | [physical-ai-video-data-augmentation](https://github.com/NVIDIA/skills) | Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical… | 1.9k | 3.2k | `/skills add NVIDIA/skills --skill physical-ai-video-data-augmentation` |
@@ -901,7 +895,6 @@ organised list is [README.md](README.md).
 | [scrapy-web-scraping](https://github.com/Mindrally/skills) | 240+ Claude Code skills converted from Cursor rules. Expert coding guidelines for every major framework and… | 1.8k | 249 | `/skills add Mindrally/skills --skill scrapy-web-scraping` |
 | [vss-summarize-video](https://github.com/NVIDIA/skills) | Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical… | 1.8k | 3.2k | `/skills add NVIDIA/skills --skill vss-summarize-video` |
 | [langchain-typescript-quickstart](https://github.com/langchain-ai/langchain-skills) |  | 1.8k | 1.2k | `/skills add langchain-ai/langchain-skills --skill langchain-typescript-quickstart` |
-| [neon-ai-gateway](https://github.com/neondatabase/agent-skills) | Agent Skills for Neon Severless Postgres | 1.8k | 85 | `/skills add neondatabase/agent-skills --skill neon-ai-gateway` |
 | [reviewing-oracle-to-postgres-migration](https://github.com/github/awesome-copilot) | Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub… | 1.8k | 38.5k | `/skills add github/awesome-copilot --skill reviewing-oracle-to-postgres-migration` |
 | [deepagents-typescript-quickstart](https://github.com/langchain-ai/langchain-skills) |  | 1.8k | 1.2k | `/skills add langchain-ai/langchain-skills --skill deepagents-typescript-quickstart` |
 | [react-navigation](https://github.com/callstackincubator/agent-skills) | A collection of agent-optimized React Native skills for AI coding assistants. | 1.8k | 1.6k | `/skills add callstackincubator/agent-skills --skill react-navigation` |
@@ -956,7 +949,7 @@ organised list is [README.md](README.md).
 | [pubchem-database](https://github.com/google-deepmind/science-skills) | GDM Science Skills to speed up agentic scientific workflows with better grounding and higher token… | 1.6k | 2.8k | `/skills add google-deepmind/science-skills --skill pubchem-database` |
 | [code-quality](https://github.com/tursodatabase/turso) | A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases. | 1.6k | 24.1k | `/skills add tursodatabase/turso --skill code-quality` |
 | [gtm-enterprise-account-planning](https://github.com/github/awesome-copilot) | Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub… | 1.6k | 38.5k | `/skills add github/awesome-copilot --skill gtm-enterprise-account-planning` |
-| [orca-emulator-android](https://github.com/stablyai/orca) | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own… | 1.6k | 59.4k | `/skills add stablyai/orca --skill orca-emulator-android` |
+| [orca-emulator-android](https://github.com/stablyai/orca) | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own… | 1.6k | 59.5k | `/skills add stablyai/orca --skill orca-emulator-android` |
 | [nushell-pro](https://github.com/hustcer/nushell-pro) | Nushell best practices, security hardening, and code review skill for Agents | 1.6k | 14 | `/skills add hustcer/nushell-pro --skill nushell-pro` |
 | [redis-security](https://github.com/redis/agent-skills) | Redis' official collection of agent skills | 1.6k | 137 | `/skills add redis/agent-skills --skill redis-security` |
 | [qdrant-clients-sdk](https://github.com/qdrant/skills) | Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring,… | 1.6k | 230 | `/skills add qdrant/skills --skill qdrant-clients-sdk` |
@@ -1015,7 +1008,7 @@ organised list is [README.md](README.md).
 | [performance-analyzer-sms](https://github.com/blacktwist/social-media-skills) | AI agent skills for social media content strategy, creation, and analysis across text-first platforms | 1.3k | 463 | `/skills add blacktwist/social-media-skills --skill performance-analyzer-sms` |
 | [testing-setup](https://github.com/android/skills) |  | 1.3k | 7.1k | `/skills add android/skills --skill testing-setup` |
 | [expo-react-native-performance](https://github.com/pproenca/dot-skills) | A collection of AI agent skills following the Agent Skills open format | 1.3k | 201 | `/skills add pproenca/dot-skills --skill expo-react-native-performance` |
-| [linear-tickets](https://github.com/stablyai/orca) | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own… | 1.3k | 59.4k | `/skills add stablyai/orca --skill linear-tickets` |
+| [linear-tickets](https://github.com/stablyai/orca) | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own… | 1.3k | 59.5k | `/skills add stablyai/orca --skill linear-tickets` |
 | [code-review](https://github.com/adobe/skills) | Adobe Skills for Agents | 1.3k | 175 | `/skills add adobe/skills --skill code-review` |
 | [naver-ad-performance](https://github.com/NomaDamas/k-skill) | 한국인을 위한 스킬 모음집 - 에이전트를 한국인으로 | 1.3k | 7.4k | `/skills add NomaDamas/k-skill --skill naver-ad-performance` |
 | [analyzing-data](https://github.com/astronomer/agents) | AI agent tooling for data engineering workflows. | 1.3k | 432 | `/skills add astronomer/agents --skill analyzing-data` |
@@ -1061,7 +1054,6 @@ organised list is [README.md](README.md).
 | [dry-refactoring](https://github.com/kucherenko/jscpd) | Copy/paste detector for programming source code, supports 223 formats. AI-ready with token-efficient… | 1.1k | 6.1k | `/skills add kucherenko/jscpd --skill dry-refactoring` |
 | [typescript](https://github.com/sentimony/skills) |  | 1.1k | 3 | `/skills add sentimony/skills --skill typescript` |
 | [translate-pdf](https://github.com/wshuyi/translate-pdf-skill) | Translate PDF documents to any language while preserving layout and styling | 1.1k | 21 | `/skills add wshuyi/translate-pdf-skill --skill translate-pdf` |
-| [postgres-best-practices](https://github.com/neondatabase/postgres-skills) |  | 1.1k | 29 | `/skills add neondatabase/postgres-skills --skill postgres-best-practices` |
 | [mapbox-android-patterns](https://github.com/mapbox/mapbox-agent-skills) |  | 1.1k | 74 | `/skills add mapbox/mapbox-agent-skills --skill mapbox-android-patterns` |
 | [subagent-driven-development](https://github.com/NeoLabHQ/context-engineering-kit) | Hand-crafted Claude Code Skills focused on improving agent results quality. Compatible with OpenCode,… | 1.1k | 1.5k | `/skills add NeoLabHQ/context-engineering-kit --skill subagent-driven-development` |
 | [n8n-credentials-and-security-official](https://github.com/n8n-io/skills) |  | 1.1k | 474 | `/skills add n8n-io/skills --skill n8n-credentials-and-security-official` |
@@ -1280,7 +1272,7 @@ organised list is [README.md](README.md).
 | [design-orchestration](https://github.com/sickn33/agentic-awesome-skills) | AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection,… | 504 | 45.8k | `/skills add sickn33/agentic-awesome-skills --skill design-orchestration` |
 | [youtube-full](https://github.com/ZeroPointRepo/youtube-skills) | YouTube Transcript API skills for AI agents. Get transcripts, search videos, browse channels. Works with… | — | 588 | `/skills add ZeroPointRepo/youtube-skills --skill youtube-full` |
 
-<sub>1274 skills · rebuilt by [`build-catalog.mjs`](.github/scripts/build-catalog.mjs) on every
+<sub>1266 skills · rebuilt by [`build-catalog.mjs`](.github/scripts/build-catalog.mjs) on every
 [verify-skills](.github/workflows/verify-skills.yml) run · install counts from the
 [skills.sh](https://skills.sh) registry · every row's SKILL.md was resolved through the GitHub API
 this run · edits here are overwritten, send them to [README.md](README.md).</sub>
