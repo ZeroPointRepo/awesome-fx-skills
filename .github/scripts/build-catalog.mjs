@@ -194,6 +194,15 @@ await Promise.all(
   })
 );
 
+// ─── WHAT A STAR COUNT IS ALLOWED TO DECIDE IN THIS FILE ─────────────────────────────────────
+// Unlike the sibling catalogs, THIS list does not rank by stars: rows are ordered by install
+// count, and there is no star-ordered discovery cap. Stars are read here for DISPLAY only, and
+// display is never adjusted — reporting a public number is not endorsing it.
+// So the ordering guard the sibling catalogs use (lib/star-rank.mjs, with its control in
+// lib/star-rank.test.mjs) is present for consistency but has nothing to guard here today. If a
+// star-based sort or a star-ordered discovery cap is ever added to this file, route it through
+// byStarRank() rather than comparing raw counts — that is the whole reason the module is here.
+// ─────────────────────────────────────────────────────────────────────────────────────────────
 rows.sort((a, b) => b.installs - a.installs || a.slug.localeCompare(b.slug));
 console.log(`Rows: ${rows.length}. Dropped: ${dropped.unresolved} unresolved/archived/renamed, ${dropped.noMatch} no matching SKILL.md.`);
 
