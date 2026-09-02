@@ -18,6 +18,7 @@
 // Writes CATALOG.md and refreshes the count in README.md's "Full catalog" line.
 
 import { readFileSync, writeFileSync } from 'node:fs';
+import { scope, replaceRegion } from './lib/markers.mjs';
 
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 const CONCURRENCY = Number(process.env.CONCURRENCY || 8);
@@ -86,9 +87,11 @@ if (found.size < 200) {
 // ------------------------------------------------------------------ curated entries from README
 
 const readme = readFileSync('README.md', 'utf8');
-const cStart = readme.indexOf('## fx skills');
-const cEnd = readme.indexOf('## fx MCP servers');
-const scoped = cStart >= 0 && cEnd > cStart ? readme.slice(cStart, cEnd) : readme;
+// Marker-scoped, not heading-scoped. This used to window from "## fx skills" to "## fx MCP
+// servers" and fall back to the WHOLE README when either heading moved, which silently pulled
+// every MCP server, gateway and packaging entry into the skill count. `scope` aborts instead.
+// See .github/scripts/lib/markers.mjs.
+const scoped = scope(readme, 'catalog');
 
 const curated = new Map();
 for (const m of scoped.matchAll(/- \*\*(.+?)\*\* with \[([\w.-]+)\]\(https:\/\/github\.com\/([\w.-]+\/[\w.-]+)\)/g)) {
@@ -233,12 +236,50 @@ this run · edits here are overwritten, send them to [README.md](README.md).</su
 writeFileSync('CATALOG.md', catalog);
 console.log(`Wrote CATALOG.md (${rows.length} skills)`);
 
-const line = `- **Full catalog:** every verified fx skill (${rows.length}) in [CATALOG.md](CATALOG.md)`;
-const updated = readme.replace(/^- \*\*Full catalog:\*\* every verified fx skill \(\d+\) in \[CATALOG\.md\]\(CATALOG\.md\)$/m, line);
+// ------------------------------------------------------------------ the two tiers, on the page
+// The page states BOTH numbers because they answer different questions and only one of them is a
+// claim about function:
+//   install-verified - entries on the curated page whose `/skills add` line was re-checked
+//                      against fx's own resolution rules on the last run.
+//   resolved         - every skill the generator could reach and index into CATALOG.md. Reaching
+//                      a repository is not evidence that the skill installs or works.
+// Both come from files this repository generates, and neither is typed by hand. A missing or
+// unparsable input aborts rather than printing a plausible number.
+const verifiedBadge = (() => {
+  try {
+    return JSON.parse(readFileSync('badges/verified.json', 'utf8'));
+  } catch (e) {
+    console.error(`Could not read badges/verified.json: ${e.message}. Refusing to state an install-verified count.`);
+    process.exit(1);
+  }
+})();
+const passRatio = /^(\d+)\/(\d+) passing/.exec(String(verifiedBadge.message || ''));
+if (!passRatio) {
+  console.error(`badges/verified.json message "${verifiedBadge.message}" does not start with "N/M passing". Refusing to state an install-verified count.`);
+  process.exit(1);
+}
+const installVerified = Number(passRatio[1]);
+
+const coverageBody = JSON.stringify({
+  schemaVersion: 1,
+  label: 'coverage',
+  message: `${installVerified} install-verified / ${rows.length} resolved`,
+  color: '000000',
+}, null, 2) + '\n';
+let coverageChanged = true;
+try { coverageChanged = readFileSync('badges/coverage.json', 'utf8') !== coverageBody; } catch { /* first run */ }
+if (coverageChanged) writeFileSync('badges/coverage.json', coverageBody);
+
+// The pointer line lives between markers now. It used to be rewritten by matching its own prose,
+// which meant rewording the sentence would silently disable the refresh, and it called every
+// resolved row "verified" — a different and larger tier than the one the badge stands behind.
+const updated = replaceRegion(
+  readme,
+  'fullcatalog',
+  `- **Full catalog:** every fx skill this list resolves (${rows.length}) in [CATALOG.md](CATALOG.md)`
+);
 if (updated !== readme) {
   writeFileSync('README.md', updated);
   console.log('Refreshed the README catalog count');
-} else if (!readme.includes('CATALOG.md')) {
-  console.error('README.md has no "Full catalog" line to update.');
-  process.exit(1);
 }
+console.log(`Coverage: ${installVerified} install-verified / ${rows.length} resolved`);

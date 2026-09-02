@@ -21,6 +21,7 @@
 // Usage: GH_TOKEN=... node .github/scripts/refresh-stars.mjs README.md
 
 import { readFileSync, writeFileSync, appendFileSync } from 'node:fs';
+import { region } from './lib/markers.mjs';
 
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 const file = process.argv[2] || 'README.md';
@@ -31,20 +32,15 @@ const H = {
 };
 
 const text = readFileSync(file, 'utf8');
-// Scope note, and it differs from verify-skills.mjs on purpose. That script windows to
-// "## fx skills" .. "## fx MCP servers" because only skills have an install command to verify.
-// Star figures are carried by every catalog surface here — MCP servers, gateways and bridges,
-// ports and packaging, embedding fx — and by the Featured skill line at the top, which is not
-// a "- **" bullet at all. All of them rot identically, so this operates on any line holding
-// both a GitHub repo link and a star figure.
-const start = text.indexOf('## ⭐ Featured skill');
-if (start < 0) {
-  console.error('Could not locate the Featured skill heading; refusing to rewrite blindly.');
-  process.exit(1);
-}
-const head = text.slice(0, start);
-const tail = '';
-const lines = text.slice(start).split('\n');
+// Scope note, and it differs from verify-skills.mjs on purpose. That script reads the `catalog`
+// markers because only skills have an install command to verify. Star figures are carried by
+// every catalog surface here — MCP servers, gateways and bridges, ports and packaging, embedding
+// fx — and by the Featured skill line at the top, which is not a "- **" bullet at all. All of
+// them rot identically, so this has its own wider `stars` markers and operates on any line inside
+// them holding both a GitHub repo link and a star figure. Two scopes, two named marker pairs,
+// neither of them a heading.
+const { inner, head, tail } = region(text, 'stars', file);
+const lines = inner.split('\n');
 
 // Match the house style exactly: plain integer below 1000, one-decimal k at or above it
 // (105★, 1.4k★, 10.5k★, 106.6k★). The sibling dsh-plugins list uses comma grouping instead,

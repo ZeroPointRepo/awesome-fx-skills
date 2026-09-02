@@ -20,6 +20,7 @@
 // Exit code is non-zero when something is wrong, so the Actions status reflects reality.
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { scope } from './lib/markers.mjs';
 
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 const file = process.argv[2] || 'README.md';
@@ -63,11 +64,11 @@ async function api(url, tries = 5) {
 
 const text = readFileSync(file, 'utf8');
 
-// Scope to the skills catalog, so the badge count matches the entries the page actually claims.
-// The Featured skill above it is the same entry repeated, and the accordions below hold prose.
-const start = text.indexOf('## fx skills');
-const end = text.indexOf('## fx MCP servers');
-const scoped = start >= 0 && end > start ? text.slice(start, end) : text;
+// Scope to the skills catalog markers, so the badge count matches the entries the page actually
+// claims. The Featured skill above them is the same entry repeated, and the accordions below hold
+// prose. STRUCTURAL, BY MARKERS: the old heading window fell back to the whole README when a
+// heading moved, which inflated the denominator with no fault reported anywhere.
+const scoped = scope(text, 'catalog', file);
 
 // One entry per `/skills add <owner>/<repo> --skill <name>` line inside the catalog.
 const entries = [];
@@ -81,7 +82,7 @@ for (const m of scoped.matchAll(/\/skills add ([\w.-]+\/[\w.-]+) --skill ([\w.-]
 
 console.log(`Parsed ${entries.length} install commands from ${file}\n`);
 if (!entries.length) {
-  console.error('No install commands found. The catalog headings probably moved.');
+  console.error('No install commands found between the catalog markers.');
   process.exit(1);
 }
 
