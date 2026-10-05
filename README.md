@@ -53,7 +53,7 @@ WebAssembly module. This list is what that buys you, sorted by the job you are t
 - [Good to know](#good-to-know)
 
 <!-- fullcatalog:start -->
-- **Full catalog:** every fx skill this list resolves (1368) in [CATALOG.md](CATALOG.md)
+- **Full catalog:** every fx skill this list resolves (1283) in [CATALOG.md](CATALOG.md)
 <!-- fullcatalog:end -->
 
 ---
@@ -62,7 +62,7 @@ WebAssembly module. This list is what that buys you, sorted by the job you are t
 
 ## ⭐ Featured skill
 
-**Search YouTube and pull transcripts** with [youtube-full](https://github.com/ZeroPointRepo/youtube-skills) by [ZeroPointRepo](https://github.com/ZeroPointRepo). Transcripts, video and channel search, playlists, and within-channel search, in one skill. No Google API key, and nothing to install or maintain. 974★.
+**Search YouTube and pull transcripts** with [youtube-full](https://github.com/ZeroPointRepo/youtube-skills) by [ZeroPointRepo](https://github.com/ZeroPointRepo). Transcripts, video and channel search, playlists, and within-channel search, in one skill. No Google API key, and nothing to install or maintain. 1.0k★.
 
 ```sh
 /skills add ZeroPointRepo/youtube-skills --skill youtube-full
@@ -102,7 +102,7 @@ as a shell command works too, and fx installs it itself without running npx.
 <!-- catalog:start -->
 ### Design and build interfaces
 
-- **Give a new UI an actual point of view** with [frontend-design](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Aesthetic direction, typography, and colour choices that do not read as template output. Anthropic's own. 178.7k★.
+- **Give a new UI an actual point of view** with [frontend-design](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Aesthetic direction, typography, and colour choices that do not read as template output. Anthropic's own. 179.7k★.
 
   <details>
   <summary>Install</summary>
@@ -113,7 +113,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Have your UI reviewed against the Web Interface Guidelines** with [web-design-guidelines](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Accessibility, focus states, motion, and layout, checked as a pass over the code you just wrote. 31.6k★.
+- **Have your UI reviewed against the Web Interface Guidelines** with [web-design-guidelines](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Accessibility, focus states, motion, and layout, checked as a pass over the code you just wrote. 31.9k★.
 
   <details>
   <summary>Install</summary>
@@ -124,7 +124,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Ship a landing page that does not look generated** with [design-taste-frontend](https://github.com/Leonxlnx/taste-skill) by [Leonxlnx](https://github.com/Leonxlnx). Reads the brief, picks a direction, and holds a line on spacing, type scale, and restraint. 90.7k★, MIT.
+- **Ship a landing page that does not look generated** with [design-taste-frontend](https://github.com/Leonxlnx/taste-skill) by [Leonxlnx](https://github.com/Leonxlnx). Reads the brief, picks a direction, and holds a line on spacing, type scale, and restraint. 92.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -135,7 +135,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Get the small details that make software feel finished** with [emil-design-eng](https://github.com/emilkowalski/skills) by [emilkowalski](https://github.com/emilkowalski). Emil Kowalski on component polish, animation decisions, and the invisible parts. 41.6k★, MIT.
+- **Get the small details that make software feel finished** with [emil-design-eng](https://github.com/emilkowalski/skills) by [emilkowalski](https://github.com/emilkowalski). Emil Kowalski on component polish, animation decisions, and the invisible parts. 43.5k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -146,7 +146,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build gesture and spring motion that feels native** with [apple-design](https://github.com/emilkowalski/skills) by [emilkowalski](https://github.com/emilkowalski). Apple's interface and motion approach translated for the web: drags, swipes, sheets, springs. 41.6k★, MIT.
+- **Build gesture and spring motion that feels native** with [apple-design](https://github.com/emilkowalski/skills) by [emilkowalski](https://github.com/emilkowalski). Apple's interface and motion approach translated for the web: drags, swipes, sheets, springs. 43.5k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -157,7 +157,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Design dashboards and admin panels properly** with [interface-design](https://github.com/Dammyjay93/interface-design) by [Dammyjay93](https://github.com/Dammyjay93). Craft-first patterns for data tables, settings pages, and dense product surfaces. 5.7k★, MIT.
+- **Design dashboards and admin panels properly** with [interface-design](https://github.com/Dammyjay93/interface-design) by [Dammyjay93](https://github.com/Dammyjay93). Craft-first patterns for data tables, settings pages, and dense product surfaces. 5.8k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -168,7 +168,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Fix the accessibility bugs already in your markup** with [fixing-accessibility](https://github.com/ibelick/ui-skills) by [ibelick](https://github.com/ibelick). ARIA labels, keyboard traps, focus management, contrast, and form error wiring. 9.2k★, MIT.
+- **Fix the accessibility bugs already in your markup** with [fixing-accessibility](https://github.com/ibelick/ui-skills) by [ibelick](https://github.com/ibelick). ARIA labels, keyboard traps, focus management, contrast, and form error wiring. 9.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -179,7 +179,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build custom widgets that keyboards can drive** with [better-accessibility](https://github.com/jakubkrehel/skills) by [jakubkrehel](https://github.com/jakubkrehel). Accessibility engineering for components, not a lint pass over finished HTML. 7.3k★, MIT.
+- **Build custom widgets that keyboards can drive** with [better-accessibility](https://github.com/jakubkrehel/skills) by [jakubkrehel](https://github.com/jakubkrehel). Accessibility engineering for components, not a lint pass over finished HTML. 7.5k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -190,7 +190,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Pull a design system out of a website you like** with [extract-design-system](https://github.com/arvindrk/extract-design-system) by [arvindrk](https://github.com/arvindrk). Extracts primitives from a public URL and writes starter token files for your project. 229★, MIT.
+- **Pull a design system out of a website you like** with [extract-design-system](https://github.com/arvindrk/extract-design-system) by [arvindrk](https://github.com/arvindrk). Extracts primitives from a public URL and writes starter token files for your project. 232★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -212,7 +212,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build accessible, responsive UI to a production bar** with [frontend-ui-engineering](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). WCAG targets, responsive behaviour, and component structure, from Addy Osmani. 99.6k★, MIT.
+- **Build accessible, responsive UI to a production bar** with [frontend-ui-engineering](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). WCAG targets, responsive behaviour, and component structure, from Addy Osmani. 101.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -223,7 +223,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build with HeroUI v3 components** with [heroui-react](https://github.com/heroui-inc/heroui) by [heroui-inc](https://github.com/heroui-inc). Buttons, modals, forms, and cards on Tailwind v4 and React Aria, installed and wired correctly. 30.8k★, Apache-2.0.
+- **Build with HeroUI v3 components** with [heroui-react](https://github.com/heroui-inc/heroui) by [heroui-inc](https://github.com/heroui-inc). Buttons, modals, forms, and cards on Tailwind v4 and React Aria, installed and wired correctly. 30.9k★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -236,7 +236,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Review and refactor code
 
-- **Review everything since a commit, branch, or merge-base** with [code-review](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Two axes at once: does it follow the repo's documented standards, and does it match the spec. 270.9k★, MIT.
+- **Review everything since a commit, branch, or merge-base** with [code-review](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Two axes at once: does it follow the repo's documented standards, and does it match the spec. 276.5k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -247,7 +247,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Get a shared vocabulary for module design** with [codebase-design](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Where a seam goes, how deep a module should be, and how to name the thing you just built. 270.9k★, MIT.
+- **Get a shared vocabulary for module design** with [codebase-design](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Where a seam goes, how deep a module should be, and how to name the thing you just built. 276.5k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -258,7 +258,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Have the agent review its own work before you see it** with [requesting-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Runs before a merge or a hand-off and checks the work against what was actually asked for. 292.3k★, MIT.
+- **Have the agent review its own work before you see it** with [requesting-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Runs before a merge or a hand-off and checks the work against what was actually asked for. 295.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -269,7 +269,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Push back on review feedback that is wrong** with [receiving-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Verifies a suggestion technically before implementing it, instead of complying with everything. 292.3k★, MIT.
+- **Push back on review feedback that is wrong** with [receiving-code-review](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Verifies a suggestion technically before implementing it, instead of complying with everything. 295.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -280,7 +280,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Run a multi-axis review before merging** with [code-review-and-quality](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). Correctness, readability, tests, and risk, scored separately rather than as one vibe. 99.6k★, MIT.
+- **Run a multi-axis review before merging** with [code-review-and-quality](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). Correctness, readability, tests, and risk, scored separately rather than as one vibe. 101.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -291,7 +291,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Get an unreasonably strict maintainability review** with [thermo-nuclear-code-quality-review](https://github.com/cursor/plugins) by [cursor](https://github.com/cursor). Hunts giant files, leaky abstractions, and spaghetti conditionals. Use it when you want it to hurt. 8.8k★.
+- **Get an unreasonably strict maintainability review** with [thermo-nuclear-code-quality-review](https://github.com/cursor/plugins) by [cursor](https://github.com/cursor). Hunts giant files, leaky abstractions, and spaghetti conditionals. Use it when you want it to hurt. 9.9k★.
 
   <details>
   <summary>Install</summary>
@@ -302,7 +302,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Run CodeRabbit review from inside the session** with [code-review](https://github.com/coderabbitai/skills) by [coderabbitai](https://github.com/coderabbitai). Fires on an explicit request, and on its own when the agent thinks a review is due. 183★, MIT.
+- **Run CodeRabbit review from inside the session** with [code-review](https://github.com/coderabbitai/skills) by [coderabbitai](https://github.com/coderabbitai). Fires on an explicit request, and on its own when the agent thinks a review is due. 187★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -335,7 +335,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Refactor without changing behaviour** with [refactor](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Extract functions, break up god objects, rename honestly, keep the tests green. 39.5k★, MIT.
+- **Refactor without changing behaviour** with [refactor](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Extract functions, break up god objects, rename honestly, keep the tests green. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -346,7 +346,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Bracket a structural change with verification** with [safe-refactor](https://github.com/JuliusBrussee/caveman) by [JuliusBrussee](https://github.com/JuliusBrussee). Proves behaviour before and after the move, so a "pure refactor" is actually pure. 108.1k★.
+- **Bracket a structural change with verification** with [safe-refactor](https://github.com/JuliusBrussee/caveman) by [JuliusBrussee](https://github.com/JuliusBrussee). Proves behaviour before and after the move, so a "pure refactor" is actually pure. 109.9k★.
 
   <details>
   <summary>Install</summary>
@@ -359,7 +359,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Test and debug
 
-- **Stop guessing at bugs** with [systematic-debugging](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Forces a hypothesis and a reproduction before any fix is proposed. The most-installed debugging skill there is. 292.3k★, MIT.
+- **Stop guessing at bugs** with [systematic-debugging](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Forces a hypothesis and a reproduction before any fix is proposed. The most-installed debugging skill there is. 295.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -370,7 +370,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Get to root cause when the build breaks** with [debugging-and-error-recovery](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). A repeatable path from failing test to the actual cause, instead of shotgun edits. 99.6k★, MIT.
+- **Get to root cause when the build breaks** with [debugging-and-error-recovery](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). A repeatable path from failing test to the actual cause, instead of shotgun edits. 101.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -381,7 +381,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Chase competing hypotheses at the same time** with [parallel-debugging](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Splits the investigation, collects evidence per branch, then arbitrates on the root cause. 40.0k★, MIT.
+- **Chase competing hypotheses at the same time** with [parallel-debugging](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Splits the investigation, collects evidence per branch, then arbitrates on the root cause. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -392,7 +392,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Drive your local app with Playwright** with [webapp-testing](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Click through the running app, screenshot it, and verify the frontend actually does what you think. 178.7k★.
+- **Drive your local app with Playwright** with [webapp-testing](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Click through the running app, screenshot it, and verify the frontend actually does what you think. 179.7k★.
 
   <details>
   <summary>Install</summary>
@@ -403,7 +403,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Inspect a real browser over Chrome DevTools MCP** with [browser-testing-with-devtools](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). DOM, network, console, and performance traces from the page as it actually renders. 99.6k★, MIT.
+- **Inspect a real browser over Chrome DevTools MCP** with [browser-testing-with-devtools](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). DOM, network, console, and performance traces from the page as it actually renders. 101.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -414,7 +414,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Turn a described scenario into a Playwright test** with [playwright-generate-test](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Writes the spec from a plain-language walkthrough using Playwright MCP. 39.5k★, MIT.
+- **Turn a described scenario into a Playwright test** with [playwright-generate-test](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Writes the spec from a plain-language walkthrough using Playwright MCP. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -425,7 +425,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build an end-to-end suite that is not flaky** with [e2e-testing-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Playwright and Cypress patterns for suites you will still trust in three months. 40.0k★, MIT.
+- **Build an end-to-end suite that is not flaky** with [e2e-testing-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Playwright and Cypress patterns for suites you will still trust in three months. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -436,7 +436,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write pytest suites that survive refactors** with [python-testing-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Fixtures, mocking boundaries, and a TDD loop that fits real projects. 40.0k★, MIT.
+- **Write pytest suites that survive refactors** with [python-testing-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Fixtures, mocking boundaries, and a TDD loop that fits real projects. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -447,7 +447,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Test JavaScript with Jest, Vitest, and Testing Library** with [javascript-testing-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Unit, integration, and mocking strategy without testing implementation details. 40.0k★, MIT.
+- **Test JavaScript with Jest, Vitest, and Testing Library** with [javascript-testing-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Unit, integration, and mocking strategy without testing implementation details. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -458,7 +458,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Verify with VoiceOver, NVDA, and JAWS** with [screen-reader-testing](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). The part of accessibility work an automated audit cannot do for you. 40.0k★, MIT.
+- **Verify with VoiceOver, NVDA, and JAWS** with [screen-reader-testing](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). The part of accessibility work an automated audit cannot do for you. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -493,7 +493,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Create and operate a Prisma Postgres database** with [prisma-postgres](https://github.com/prisma/skills) by [prisma](https://github.com/prisma). Console, create-db CLI, and the Management API, from Prisma. 65★, MIT.
+- **Create and operate a Prisma Postgres database** with [prisma-postgres](https://github.com/prisma/skills) by [prisma](https://github.com/prisma). Console, create-db CLI, and the Management API, from Prisma. 67★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -504,7 +504,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write Prisma Client queries correctly** with [prisma-client-api](https://github.com/prisma/skills) by [prisma](https://github.com/prisma). Model queries, filters, operators, and the client methods people usually look up twice. 65★, MIT.
+- **Write Prisma Client queries correctly** with [prisma-client-api](https://github.com/prisma/skills) by [prisma](https://github.com/prisma). Model queries, filters, operators, and the client methods people usually look up twice. 67★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -515,7 +515,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Work with Neon Postgres and branching** with [neon-postgres](https://github.com/neondatabase/agent-skills) by [neondatabase](https://github.com/neondatabase). Neon's own guidance for serverless Postgres, branches, and connection handling. 95★, Apache-2.0.
+- **Work with Neon Postgres and branching** with [neon-postgres](https://github.com/neondatabase/agent-skills) by [neondatabase](https://github.com/neondatabase). Neon's own guidance for serverless Postgres, branches, and connection handling. 98★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -526,7 +526,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Plan and review MySQL schema and indexes** with [mysql](https://github.com/planetscale/database-skills) by [planetscale](https://github.com/planetscale). InnoDB-aware schema design, query tuning, and transaction behaviour from PlanetScale. 689★, MIT.
+- **Plan and review MySQL schema and indexes** with [mysql](https://github.com/planetscale/database-skills) by [planetscale](https://github.com/planetscale). InnoDB-aware schema design, query tuning, and transaction behaviour from PlanetScale. 692★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -537,7 +537,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Use the Postgres-only features you are ignoring** with [postgresql-optimization](https://github.com/github/awesome-copilot) by [github](https://github.com/github). JSONB, partial indexes, CTE behaviour, and the planner details that decide query cost. 39.5k★, MIT.
+- **Use the Postgres-only features you are ignoring** with [postgresql-optimization](https://github.com/github/awesome-copilot) by [github](https://github.com/github). JSONB, partial indexes, CTE behaviour, and the planner details that decide query cost. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -548,7 +548,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Migrate a live database with zero downtime** with [database-migration](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Expand-contract sequencing, backfills, and a rollback that actually works. 40.0k★, MIT.
+- **Migrate a live database with zero downtime** with [database-migration](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Expand-contract sequencing, backfills, and a rollback that actually works. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -559,7 +559,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Model, query, and secure Firestore** with [firebase-firestore](https://github.com/firebase/agent-skills) by [firebase](https://github.com/firebase). Data modelling, security rules, indexes, and the SDK wiring, from Firebase. 456★, Apache-2.0.
+- **Model, query, and secure Firestore** with [firebase-firestore](https://github.com/firebase/agent-skills) by [firebase](https://github.com/firebase). Data modelling, security rules, indexes, and the SDK wiring, from Firebase. 462★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -570,7 +570,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Stop an agent deploying to prod by accident** with [convex-deploy-guard](https://github.com/get-convex/agent-skills) by [get-convex](https://github.com/get-convex). Classifies the target deployment and demands fresh consent before anything touches production. 62★.
+- **Stop an agent deploying to prod by accident** with [convex-deploy-guard](https://github.com/get-convex/agent-skills) by [get-convex](https://github.com/get-convex). Classifies the target deployment and demands fresh consent before anything touches production. 63★.
 
   <details>
   <summary>Install</summary>
@@ -581,7 +581,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Wire Clerk auth into Next.js properly** with [clerk-nextjs-patterns](https://github.com/clerk/skills) by [clerk](https://github.com/clerk). Middleware, Server Actions, and caching behaviour, from Clerk. 83★.
+- **Wire Clerk auth into Next.js properly** with [clerk-nextjs-patterns](https://github.com/clerk/skills) by [clerk](https://github.com/clerk). Middleware, Server Actions, and caching behaviour, from Clerk. 86★.
 
   <details>
   <summary>Install</summary>
@@ -592,7 +592,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Harden a Better Auth setup** with [better-auth-security-best-practices](https://github.com/better-auth/skills) by [better-auth](https://github.com/better-auth). Rate limits, CSRF, trusted origins, session and cookie flags, OAuth token encryption. 221★.
+- **Harden a Better Auth setup** with [better-auth-security-best-practices](https://github.com/better-auth/skills) by [better-auth](https://github.com/better-auth). Rate limits, CSRF, trusted origins, session and cookie flags, OAuth token encryption. 222★.
 
   <details>
   <summary>Install</summary>
@@ -605,7 +605,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Deploy and run in production
 
-- **Deploy and get the preview link back** with [deploy-to-vercel](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). "Push this live" as one instruction. Vercel's own deployment skill. 31.6k★.
+- **Deploy and get the preview link back** with [deploy-to-vercel](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). "Push this live" as one instruction. Vercel's own deployment skill. 31.9k★.
 
   <details>
   <summary>Install</summary>
@@ -616,7 +616,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Deploy from CI with a token instead of a login** with [vercel-cli-with-tokens](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Token-based Vercel CLI use for pipelines and headless sessions. 31.6k★.
+- **Deploy from CI with a token instead of a login** with [vercel-cli-with-tokens](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Token-based Vercel CLI use for pipelines and headless sessions. 31.9k★.
 
   <details>
   <summary>Install</summary>
@@ -627,7 +627,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Cut what a deployed project costs to run** with [vercel-optimize](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Pulls real usage and config, then names the specific changes worth making. 31.6k★.
+- **Cut what a deployed project costs to run** with [vercel-optimize](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Pulls real usage and config, then names the specific changes worth making. 31.9k★.
 
   <details>
   <summary>Install</summary>
@@ -660,7 +660,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Deploy a Next.js or Angular app with SSR** with [firebase-app-hosting-basics](https://github.com/firebase/agent-skills) by [firebase](https://github.com/firebase). Firebase App Hosting for full-stack apps, not just static output. 456★, Apache-2.0.
+- **Deploy a Next.js or Angular app with SSR** with [firebase-app-hosting-basics](https://github.com/firebase/agent-skills) by [firebase](https://github.com/firebase). Firebase App Hosting for full-stack apps, not just static output. 462★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -671,7 +671,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build stateful agents on Cloudflare Workers** with [agents-sdk](https://github.com/cloudflare/skills) by [cloudflare](https://github.com/cloudflare). Durable workflows, WebSocket apps, scheduled tasks, and MCP servers on the Agents SDK. 2.9k★, Apache-2.0.
+- **Build stateful agents on Cloudflare Workers** with [agents-sdk](https://github.com/cloudflare/skills) by [cloudflare](https://github.com/cloudflare). Durable workflows, WebSocket apps, scheduled tasks, and MCP servers on the Agents SDK. 3.0k★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -682,7 +682,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write Terraform HashiCorp would accept** with [terraform-style-guide](https://github.com/hashicorp/agent-skills) by [hashicorp](https://github.com/hashicorp). Official HCL style conventions, applied while the code is being written. 877★, MPL-2.0.
+- **Write Terraform HashiCorp would accept** with [terraform-style-guide](https://github.com/hashicorp/agent-skills) by [hashicorp](https://github.com/hashicorp). Official HCL style conventions, applied while the code is being written. 884★, MPL-2.0.
 
   <details>
   <summary>Install</summary>
@@ -693,7 +693,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build reusable modules across AWS, Azure, and GCP** with [terraform-module-library](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Module boundaries, variables, and outputs that survive being used twice. 40.0k★, MIT.
+- **Build reusable modules across AWS, Azure, and GCP** with [terraform-module-library](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Module boundaries, variables, and outputs that survive being used twice. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -704,7 +704,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Get a small, correct Dockerfile** with [multi-stage-dockerfile](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Multi-stage builds for any language, with the caching layers in the right order. 39.5k★, MIT.
+- **Get a small, correct Dockerfile** with [multi-stage-dockerfile](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Multi-stage builds for any language, with the caching layers in the right order. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -726,7 +726,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Design a pipeline with real gates** with [deployment-pipeline-design](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Multi-stage CI/CD, approvals, security checks, and zero-downtime rollout. 40.0k★, MIT.
+- **Design a pipeline with real gates** with [deployment-pipeline-design](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Multi-stage CI/CD, approvals, security checks, and zero-downtime rollout. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -739,7 +739,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Browse the web and gather evidence
 
-- **Give the agent a browser it can drive** with [agent-browser](https://github.com/vercel-labs/agent-browser) by [vercel-labs](https://github.com/vercel-labs). Navigate, fill forms, click, screenshot, and extract. Vercel's browser automation CLI for agents. 43.3k★, Apache-2.0.
+- **Give the agent a browser it can drive** with [agent-browser](https://github.com/vercel-labs/agent-browser) by [vercel-labs](https://github.com/vercel-labs). Navigate, fill forms, click, screenshot, and extract. Vercel's browser automation CLI for agents. 43.5k★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -750,7 +750,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Scrape and crawl sites from the session** with [firecrawl-agent](https://github.com/firecrawl/cli) by [firecrawl](https://github.com/firecrawl). Firecrawl's own CLI skill for turning pages into clean structured text. 640★.
+- **Scrape and crawl sites from the session** with [firecrawl-agent](https://github.com/firecrawl/cli) by [firecrawl](https://github.com/firecrawl). Firecrawl's own CLI skill for turning pages into clean structured text. 644★.
 
   <details>
   <summary>Install</summary>
@@ -761,7 +761,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Rebuild a site's design system from evidence** with [firecrawl-website-design-clone](https://github.com/firecrawl/firecrawl-workflows) by [firecrawl](https://github.com/firecrawl). Scrapes the real page, then writes colours, type, spacing, and components into a DESIGN.md. 175★, ISC.
+- **Rebuild a site's design system from evidence** with [firecrawl-website-design-clone](https://github.com/firecrawl/firecrawl-workflows) by [firecrawl](https://github.com/firecrawl). Scrapes the real page, then writes colours, type, spacing, and components into a DESIGN.md. 182★, ISC.
 
   <details>
   <summary>Install</summary>
@@ -772,7 +772,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Audit a site's SEO from a live crawl** with [firecrawl-seo-audit](https://github.com/firecrawl/firecrawl-workflows) by [firecrawl](https://github.com/firecrawl). Metadata, headings, site structure, and keyword gaps against the pages as served. 175★, ISC.
+- **Audit a site's SEO from a live crawl** with [firecrawl-seo-audit](https://github.com/firecrawl/firecrawl-workflows) by [firecrawl](https://github.com/firecrawl). Metadata, headings, site structure, and keyword gaps against the pages as served. 182★, ISC.
 
   <details>
   <summary>Install</summary>
@@ -783,7 +783,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Automate and profile Chrome over MCP** with [chrome-devtools](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Interact with pages, capture screenshots, and read performance traces. 39.5k★, MIT.
+- **Automate and profile Chrome over MCP** with [chrome-devtools](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Interact with pages, capture screenshots, and read performance traces. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -794,7 +794,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Use a real browser with a real fingerprint** with [browser-mcp-agent](https://github.com/antibrow/anti-detect-browser-skills) by [antibrow](https://github.com/antibrow). Launch, navigate, click, and extract with a persistent kernel-level device profile. 692★, MIT.
+- **Use a real browser with a real fingerprint** with [browser-mcp-agent](https://github.com/antibrow/anti-detect-browser-skills) by [antibrow](https://github.com/antibrow). Launch, navigate, click, and extract with a persistent kernel-level device profile. 883★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -805,7 +805,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Search the web with citations attached** with [tavily-research](https://github.com/tavily-ai/skills) by [tavily-ai](https://github.com/tavily-ai). Tavily's research skill, built for answers you can trace back. 484★, MIT.
+- **Search the web with citations attached** with [tavily-research](https://github.com/tavily-ai/skills) by [tavily-ai](https://github.com/tavily-ai). Tavily's research skill, built for answers you can trace back. 486★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -816,7 +816,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Run an exhaustive multi-source investigation** with [parallel-deep-research](https://github.com/parallel-web/parallel-agent-skills) by [parallel-web](https://github.com/parallel-web). Deliberately slow and thorough. Reach for it only when a quick search will not do. 77★, MIT.
+- **Run an exhaustive multi-source investigation** with [parallel-deep-research](https://github.com/parallel-web/parallel-agent-skills) by [parallel-web](https://github.com/parallel-web). Deliberately slow and thorough. Reach for it only when a quick search will not do. 78★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -829,7 +829,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Documents, diagrams, and slides
 
-- **Read, split, merge, and fill PDFs** with [pdf](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Text and table extraction, page surgery, and form filling. Anthropic's own. 178.7k★.
+- **Read, split, merge, and fill PDFs** with [pdf](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Text and table extraction, page surgery, and form filling. Anthropic's own. 179.7k★.
 
   <details>
   <summary>Install</summary>
@@ -840,7 +840,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Work on PDFs where the layout matters** with [pdf](https://github.com/openai/skills) by [openai](https://github.com/openai). Renders pages and checks them visually instead of trusting a text dump. OpenAI's own. 27.7k★.
+- **Work on PDFs where the layout matters** with [pdf](https://github.com/openai/skills) by [openai](https://github.com/openai). Renders pages and checks them visually instead of trusting a text dump. OpenAI's own. 27.9k★.
 
   <details>
   <summary>Install</summary>
@@ -851,7 +851,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Pull tables and metadata out of a PDF** with [pdf-extraction](https://github.com/claude-office-skills/skills) by [claude-office-skills](https://github.com/claude-office-skills). pdfplumber under the hood, for the documents that defeat a plain text extract. 489★, MIT.
+- **Pull tables and metadata out of a PDF** with [pdf-extraction](https://github.com/claude-office-skills/skills) by [claude-office-skills](https://github.com/claude-office-skills). pdfplumber under the hood, for the documents that defeat a plain text extract. 496★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -862,7 +862,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build and edit real spreadsheets** with [excel-automation](https://github.com/claude-office-skills/skills) by [claude-office-skills](https://github.com/claude-office-skills). Formulas, formatting, and multi-sheet workbooks rather than a CSV pretending to be one. 489★, MIT.
+- **Build and edit real spreadsheets** with [excel-automation](https://github.com/claude-office-skills/skills) by [claude-office-skills](https://github.com/claude-office-skills). Formulas, formatting, and multi-sheet workbooks rather than a CSV pretending to be one. 496★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -884,7 +884,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Drive pdftk from the shell** with [pdftk-server](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Merge, split, rotate, encrypt, and stamp, for when a library is overkill. 39.5k★, MIT.
+- **Drive pdftk from the shell** with [pdftk-server](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Merge, split, rotate, encrypt, and stamp, for when a library is overkill. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -906,7 +906,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Draw the architecture you just described** with [design-doc-mermaid](https://github.com/SpillwaveSolutions/design-doc-mermaid) by [SpillwaveSolutions](https://github.com/SpillwaveSolutions). Activity, sequence, deployment, and architecture diagrams in Mermaid, from text or from source. 175★.
+- **Draw the architecture you just described** with [design-doc-mermaid](https://github.com/SpillwaveSolutions/design-doc-mermaid) by [SpillwaveSolutions](https://github.com/SpillwaveSolutions). Activity, sequence, deployment, and architecture diagrams in Mermaid, from text or from source. 173★.
 
   <details>
   <summary>Install</summary>
@@ -917,7 +917,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Get an Excalidraw diagram from a description** with [excalidraw-diagram-generator](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Hand-drawn-style flowcharts and system diagrams you can keep editing. 39.5k★, MIT.
+- **Get an Excalidraw diagram from a description** with [excalidraw-diagram-generator](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Hand-drawn-style flowcharts and system diagrams you can keep editing. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -930,7 +930,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Images, video, and audio
 
-- **Turn a product URL into a launch video** with [product-launch-video](https://github.com/heygen-com/hyperframes) by [heygen-com](https://github.com/heygen-com). Feed it a marketing page, a script, or a brief and get a finished promo. 53.7k★, Apache-2.0.
+- **Turn a product URL into a launch video** with [product-launch-video](https://github.com/heygen-com/hyperframes) by [heygen-com](https://github.com/heygen-com). Feed it a marketing page, a script, or a brief and get a finished promo. 56.9k★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -941,7 +941,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Turn a pull request into an explainer video** with [pr-to-video](https://github.com/heygen-com/hyperframes) by [heygen-com](https://github.com/heygen-com). Point it at a PR URL and it narrates the change with the diff on screen. 53.7k★, Apache-2.0.
+- **Turn a pull request into an explainer video** with [pr-to-video](https://github.com/heygen-com/hyperframes) by [heygen-com](https://github.com/heygen-com). Point it at a PR URL and it narrates the change with the diff on screen. 56.9k★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -952,7 +952,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Turn a changelog into a branded clip** with [changelog-video](https://github.com/heygen-com/hyperframes) by [heygen-com](https://github.com/heygen-com). Square, about a minute, voiced, with mock-UI visualisations. 53.7k★, Apache-2.0.
+- **Turn a changelog into a branded clip** with [changelog-video](https://github.com/heygen-com/hyperframes) by [heygen-com](https://github.com/heygen-com). Square, about a minute, voiced, with mock-UI visualisations. 56.9k★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -985,7 +985,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Generate images across eleven providers** with [baoyu-image-gen](https://github.com/JimLiu/baoyu-skills) by [JimLiu](https://github.com/JimLiu). GPT Image 2, Google, OpenRouter, DashScope, GLM-Image, MiniMax, Seedream, Replicate, and more behind one skill. 26.2k★, MIT.
+- **Generate images across eleven providers** with [baoyu-image-gen](https://github.com/JimLiu/baoyu-skills) by [JimLiu](https://github.com/JimLiu). GPT Image 2, Google, OpenRouter, DashScope, GLM-Image, MiniMax, Seedream, Replicate, and more behind one skill. 26.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -996,7 +996,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Make a short video with no API key setup** with [videoagent-video-studio](https://github.com/pexoai/pexo-skills) by [pexoai](https://github.com/pexoai). Text-to-video, image-to-video, and reference-based generation. 798★, MIT.
+- **Make a short video with no API key setup** with [videoagent-video-studio](https://github.com/pexoai/pexo-skills) by [pexoai](https://github.com/pexoai). Text-to-video, image-to-video, and reference-based generation. 800★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1007,7 +1007,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Make a poster or a print-quality PNG** with [canvas-design](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Real design philosophy applied to static artwork, output as .png or .pdf. 178.7k★.
+- **Make a poster or a print-quality PNG** with [canvas-design](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Real design philosophy applied to static artwork, output as .png or .pdf. 179.7k★.
 
   <details>
   <summary>Install</summary>
@@ -1018,7 +1018,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Make a GIF that Slack will actually accept** with [slack-gif-creator](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Knows the size and dimension limits, and validates before you upload. 178.7k★.
+- **Make a GIF that Slack will actually accept** with [slack-gif-creator](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Knows the size and dimension limits, and validates before you upload. 179.7k★.
 
   <details>
   <summary>Install</summary>
@@ -1029,7 +1029,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Batch-process images with ImageMagick** with [image-manipulation-image-magick](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Resize, convert, strip metadata, and run the whole folder. 39.5k★, MIT.
+- **Batch-process images with ImageMagick** with [image-manipulation-image-magick](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Resize, convert, strip metadata, and run the whole folder. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1042,7 +1042,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Languages and frameworks
 
-- **Write React and Next.js the way Vercel does** with [vercel-react-best-practices](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Performance guidance from Vercel Engineering, applied while the code is written. 31.6k★.
+- **Write React and Next.js the way Vercel does** with [vercel-react-best-practices](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Performance guidance from Vercel Engineering, applied while the code is written. 31.9k★.
 
   <details>
   <summary>Install</summary>
@@ -1053,7 +1053,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Compose React components that scale** with [vercel-composition-patterns](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). The refactor patterns for when prop drilling has quietly become the architecture. 31.6k★.
+- **Compose React components that scale** with [vercel-composition-patterns](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). The refactor patterns for when prop drilling has quietly become the architecture. 31.9k★.
 
   <details>
   <summary>Install</summary>
@@ -1064,7 +1064,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build React Native and Expo apps well** with [vercel-react-native-skills](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Vercel's mobile performance guidance for the same stack. 31.6k★.
+- **Build React Native and Expo apps well** with [vercel-react-native-skills](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Vercel's mobile performance guidance for the same stack. 31.9k★.
 
   <details>
   <summary>Install</summary>
@@ -1075,7 +1075,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Master the App Router** with [nextjs-app-router-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Server Components, streaming, parallel routes, and the data fetching that goes with them. 40.0k★, MIT.
+- **Master the App Router** with [nextjs-app-router-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Server Components, streaming, parallel routes, and the data fetching that goes with them. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1086,7 +1086,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Use the type system on purpose** with [typescript-advanced-types](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Generics, conditional and mapped types, template literals, and when not to reach for them. 40.0k★, MIT.
+- **Use the type system on purpose** with [typescript-advanced-types](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Generics, conditional and mapped types, template literals, and when not to reach for them. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1097,7 +1097,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Set up Python with uv, ruff, and ty** with [modern-python](https://github.com/trailofbits/skills) by [trailofbits](https://github.com/trailofbits). Trail of Bits' modern toolchain, including migrating off pip and Poetry. 7.3k★, CC-BY-SA-4.0.
+- **Set up Python with uv, ruff, and ty** with [modern-python](https://github.com/trailofbits/skills) by [trailofbits](https://github.com/trailofbits). Trail of Bits' modern toolchain, including migrating off pip and Poetry. 7.4k★, CC-BY-SA-4.0.
 
   <details>
   <summary>Install</summary>
@@ -1108,7 +1108,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Find out why the Python is slow** with [python-performance-optimization](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). cProfile and memory profiling first, optimisation second. 40.0k★, MIT.
+- **Find out why the Python is slow** with [python-performance-optimization](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). cProfile and memory profiling first, optimisation second. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1119,7 +1119,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write Go tests that catch real failures** with [golang-testing](https://github.com/samber/cc-skills-golang) by [samber](https://github.com/samber). Table-driven tests, testify suites, fuzzing, goroutine leak detection, coverage. 3.3k★, MIT.
+- **Write Go tests that catch real failures** with [golang-testing](https://github.com/samber/cc-skills-golang) by [samber](https://github.com/samber). Table-driven tests, testify suites, fuzzing, goroutine leak detection, coverage. 3.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1130,7 +1130,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write idiomatic Go** with [golang-design-patterns](https://github.com/samber/cc-skills-golang) by [samber](https://github.com/samber). Functional options, error cascades, resource lifecycle, graceful shutdown. 3.3k★, MIT.
+- **Write idiomatic Go** with [golang-design-patterns](https://github.com/samber/cc-skills-golang) by [samber](https://github.com/samber). Functional options, error cascades, resource lifecycle, graceful shutdown. 3.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1141,7 +1141,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Get async Rust right** with [rust-async-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Tokio, async traits, error handling, and the concurrency patterns that compile. 40.0k★, MIT.
+- **Get async Rust right** with [rust-async-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Tokio, async traits, error handling, and the concurrency patterns that compile. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1152,7 +1152,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write Rust to Apollo's handbook** with [rust-best-practices](https://github.com/apollographql/skills) by [apollographql](https://github.com/apollographql). Idiomatic Rust from the team that maintains the Apollo Router. 115★, MIT.
+- **Write Rust to Apollo's handbook** with [rust-best-practices](https://github.com/apollographql/skills) by [apollographql](https://github.com/apollographql). Idiomatic Rust from the team that maintains the Apollo Router. 116★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1163,7 +1163,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write SwiftUI that does not re-render everything** with [swiftui-expert-skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) by [AvdLee](https://github.com/AvdLee). State flow with @Observable, view composition, invalidation, and list performance. 3.6k★, MIT.
+- **Write SwiftUI that does not re-render everything** with [swiftui-expert-skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) by [AvdLee](https://github.com/AvdLee). State flow with @Observable, view composition, invalidation, and list performance. 3.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1174,7 +1174,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Review SwiftUI against modern APIs** with [swiftui-pro](https://github.com/twostraws/SwiftUI-Agent-Skill) by [twostraws](https://github.com/twostraws). Paul Hudson's review skill for maintainability and performance. 4.9k★, MIT.
+- **Review SwiftUI against modern APIs** with [swiftui-pro](https://github.com/twostraws/SwiftUI-Agent-Skill) by [twostraws](https://github.com/twostraws). Paul Hudson's review skill for maintainability and performance. 5.0k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1218,7 +1218,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Animate React with GSAP correctly** with [gsap-react](https://github.com/greensock/gsap-skills) by [greensock](https://github.com/greensock). The official useGSAP hook, refs, contexts, and cleanup, from GreenSock. 15.7k★, MIT.
+- **Animate React with GSAP correctly** with [gsap-react](https://github.com/greensock/gsap-skills) by [greensock](https://github.com/greensock). The official useGSAP hook, refs, contexts, and cleanup, from GreenSock. 15.9k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1242,7 +1242,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Harden anything that takes untrusted input** with [security-and-hardening](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). Input handling, auth, storage, and third-party integrations. 99.6k★, MIT.
+- **Harden anything that takes untrusted input** with [security-and-hardening](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). Input handling, auth, storage, and third-party integrations. 101.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1253,7 +1253,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Review security per language and framework** with [security-best-practices](https://github.com/openai/skills) by [openai](https://github.com/openai). OpenAI's own review skill, deliberately opt-in rather than always-on. 27.7k★.
+- **Review security per language and framework** with [security-best-practices](https://github.com/openai/skills) by [openai](https://github.com/openai). OpenAI's own review skill, deliberately opt-in rather than always-on. 27.9k★.
 
   <details>
   <summary>Install</summary>
@@ -1264,7 +1264,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Audit Firestore and Storage rules** with [firebase-security-rules-auditor](https://github.com/firebase/agent-skills) by [firebase](https://github.com/firebase). Privilege escalation, role bypass, create-versus-update gaps, and resource exhaustion. 456★, Apache-2.0.
+- **Audit Firestore and Storage rules** with [firebase-security-rules-auditor](https://github.com/firebase/agent-skills) by [firebase](https://github.com/firebase). Privilege escalation, role bypass, create-versus-update gaps, and resource exhaustion. 462★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -1275,7 +1275,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Secure an API you are about to ship** with [api-security-best-practices](https://github.com/sickn33/agentic-awesome-skills) by [sickn33](https://github.com/sickn33). AuthN and authZ, validation, rate limiting, and the usual API-specific holes. 47.0k★, MIT.
+- **Secure an API you are about to ship** with [api-security-best-practices](https://github.com/sickn33/agentic-awesome-skills) by [sickn33](https://github.com/sickn33). AuthN and authZ, validation, rate limiting, and the usual API-specific holes. 47.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1286,7 +1286,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Lock down a Kubernetes cluster** with [k8s-security-policies](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). NetworkPolicy, pod security, and RBAC written for production rather than a demo. 40.0k★, MIT.
+- **Lock down a Kubernetes cluster** with [k8s-security-policies](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). NetworkPolicy, pod security, and RBAC written for production rather than a demo. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1297,7 +1297,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write smart contracts that do not get drained** with [solidity-security](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). The common vulnerability classes and the patterns that avoid them. 40.0k★, MIT.
+- **Write smart contracts that do not get drained** with [solidity-security](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). The common vulnerability classes and the patterns that avoid them. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1308,7 +1308,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Get security guidance for a Google Cloud workload** with [google-cloud-waf-security](https://github.com/google/skills) by [google](https://github.com/google). Google's own skill, keyed to the Well-Architected security pillar. 20.4k★, Apache-2.0.
+- **Get security guidance for a Google Cloud workload** with [google-cloud-waf-security](https://github.com/google/skills) by [google](https://github.com/google). Google's own skill, keyed to the Well-Architected security pillar. 20.9k★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -1332,7 +1332,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Plan work and manage git
 
-- **Write the spec before any code exists** with [spec-driven-development](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). For a new project or a big feature where the requirements are still a conversation. 99.6k★, MIT.
+- **Write the spec before any code exists** with [spec-driven-development](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). For a new project or a big feature where the requirements are still a conversation. 101.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1343,7 +1343,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Break a spec into ordered, buildable tasks** with [planning-and-task-breakdown](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). For when the work is clear but too large to hold in one turn. 99.6k★, MIT.
+- **Break a spec into ordered, buildable tasks** with [planning-and-task-breakdown](https://github.com/addyosmani/agent-skills) by [addyosmani](https://github.com/addyosmani). For when the work is clear but too large to hold in one turn. 101.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1354,7 +1354,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Keep PRODUCT.md and TECH.md true while you build** with [spec-driven-implementation](https://github.com/warpdotdev/common-skills) by [warpdotdev](https://github.com/warpdotdev). Warp's spec-first loop, where the spec is updated as the implementation moves. 592★, MIT.
+- **Keep PRODUCT.md and TECH.md true while you build** with [spec-driven-implementation](https://github.com/warpdotdev/common-skills) by [warpdotdev](https://github.com/warpdotdev). Warp's spec-first loop, where the spec is updated as the implementation moves. 604★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1365,7 +1365,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Survive a context reset mid-task** with [pi-planning-with-files](https://github.com/OthmanAdi/planning-with-files) by [OthmanAdi](https://github.com/OthmanAdi). Plans live in markdown on disk, so compaction or a crash does not lose the thread. 27.2k★, MIT.
+- **Survive a context reset mid-task** with [pi-planning-with-files](https://github.com/OthmanAdi/planning-with-files) by [OthmanAdi](https://github.com/OthmanAdi). Plans live in markdown on disk, so compaction or a crash does not lose the thread. 27.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1376,7 +1376,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write a PRD with user stories and acceptance criteria** with [prd](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Executive summary through to the edge cases, in a shape engineers can build from. 39.5k★, MIT.
+- **Write a PRD with user stories and acceptance criteria** with [prd](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Executive summary through to the edge cases, in a shape engineers can build from. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1387,7 +1387,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Work on a feature without touching your workspace** with [using-git-worktrees](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Sets up an isolated worktree before a long change begins. 292.3k★, MIT.
+- **Work on a feature without touching your workspace** with [using-git-worktrees](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Sets up an isolated worktree before a long change begins. 295.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1398,7 +1398,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Block the destructive git commands** with [git-guardrails-claude-code](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Hooks that refuse push, reset --hard, clean, and branch -D before they run. 270.9k★, MIT.
+- **Block the destructive git commands** with [git-guardrails-claude-code](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). Hooks that refuse push, reset --hard, clean, and branch -D before they run. 276.5k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1409,7 +1409,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write conventional commit messages** with [conventional-commit](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Structured analysis of the diff, then a message that matches it. 39.5k★, MIT.
+- **Write conventional commit messages** with [conventional-commit](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Structured analysis of the diff, then a message that matches it. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1420,7 +1420,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Stage intelligently and commit** with [git-commit](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Reads the working tree, groups related changes, and writes the message. 39.5k★, MIT.
+- **Stage intelligently and commit** with [git-commit](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Reads the working tree, groups related changes, and writes the message. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1433,7 +1433,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Marketing, SEO, and writing
 
-- **Find out why the site is not ranking** with [seo-audit](https://github.com/coreyhaines31/marketingskills) by [coreyhaines31](https://github.com/coreyhaines31). Technical and on-page SEO diagnosis rather than a keyword list. 51.7k★, MIT.
+- **Find out why the site is not ranking** with [seo-audit](https://github.com/coreyhaines31/marketingskills) by [coreyhaines31](https://github.com/coreyhaines31). Technical and on-page SEO diagnosis rather than a keyword list. 53.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1444,7 +1444,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Build template-driven pages at scale** with [programmatic-seo](https://github.com/coreyhaines31/marketingskills) by [coreyhaines31](https://github.com/coreyhaines31). Directory and comparison page programmes that do not read as doorway spam. 51.7k★, MIT.
+- **Build template-driven pages at scale** with [programmatic-seo](https://github.com/coreyhaines31/marketingskills) by [coreyhaines31](https://github.com/coreyhaines31). Directory and comparison page programmes that do not read as doorway spam. 53.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1455,7 +1455,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Get cited inside AI answers** with [ai-seo](https://github.com/coreyhaines31/marketingskills) by [coreyhaines31](https://github.com/coreyhaines31). AEO and GEO: structuring content so a model quotes you rather than your competitor. 51.7k★, MIT.
+- **Get cited inside AI answers** with [ai-seo](https://github.com/coreyhaines31/marketingskills) by [coreyhaines31](https://github.com/coreyhaines31). AEO and GEO: structuring content so a model quotes you rather than your competitor. 53.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1466,7 +1466,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Design an experiment worth running** with [ab-testing](https://github.com/coreyhaines31/marketingskills) by [coreyhaines31](https://github.com/coreyhaines31). Sample size, guardrail metrics, and a stopping rule agreed in advance. 51.7k★, MIT.
+- **Design an experiment worth running** with [ab-testing](https://github.com/coreyhaines31/marketingskills) by [coreyhaines31](https://github.com/coreyhaines31). Sample size, guardrail metrics, and a stopping rule agreed in advance. 53.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1499,7 +1499,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Have your docs reviewed for voice and tone** with [writing-guidelines](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Vercel's writing guidelines applied as a review pass over prose. 31.6k★.
+- **Have your docs reviewed for voice and tone** with [writing-guidelines](https://github.com/vercel-labs/agent-skills) by [vercel-labs](https://github.com/vercel-labs). Vercel's writing guidelines applied as a review pass over prose. 31.9k★.
 
   <details>
   <summary>Install</summary>
@@ -1510,7 +1510,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write a SKILL.md or AGENTS.md that works** with [writing-for-agents](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). How to write documents whose reader is a model, not a person. 270.9k★, MIT.
+- **Write a SKILL.md or AGENTS.md that works** with [writing-for-agents](https://github.com/mattpocock/skills) by [mattpocock](https://github.com/mattpocock). How to write documents whose reader is a model, not a person. 276.5k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1521,7 +1521,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Write the README, runbook, or onboarding guide** with [documentation](https://github.com/anthropics/knowledge-work-plugins) by [anthropics](https://github.com/anthropics). Anthropic's documentation skill for the docs nobody volunteers to write. 25.8k★, Apache-2.0.
+- **Write the README, runbook, or onboarding guide** with [documentation](https://github.com/anthropics/knowledge-work-plugins) by [anthropics](https://github.com/anthropics). Anthropic's documentation skill for the docs nobody volunteers to write. 26.1k★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -1532,7 +1532,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Structure docs with Diataxis** with [documentation-writer](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Tutorial, how-to, reference, and explanation kept as separate jobs. 39.5k★, MIT.
+- **Structure docs with Diataxis** with [documentation-writer](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Tutorial, how-to, reference, and explanation kept as separate jobs. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1545,7 +1545,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Connect the tools you already use
 
-- **Drive Notion from the command line** with [notion-cli](https://github.com/makenotion/skills) by [makenotion](https://github.com/makenotion). Notion's own `ntn` CLI skill for pages, databases, and workers. 168★, MIT.
+- **Drive Notion from the command line** with [notion-cli](https://github.com/makenotion/skills) by [makenotion](https://github.com/makenotion). Notion's own `ntn` CLI skill for pages, databases, and workers. 170★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1567,7 +1567,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Manage Linear issues from the terminal** with [linear-cli](https://github.com/schpet/linear-cli) by [schpet](https://github.com/schpet). Create, move, and comment on issues without leaving the session. 974★, ISC.
+- **Manage Linear issues from the terminal** with [linear-cli](https://github.com/schpet/linear-cli) by [schpet](https://github.com/schpet). Create, move, and comment on issues without leaving the session. 985★, ISC.
 
   <details>
   <summary>Install</summary>
@@ -1578,7 +1578,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Read and update the Linear issue you are working on** with [orca-linear](https://github.com/stablyai/orca) by [stablyai](https://github.com/stablyai). Reads the linked issue for the current branch and keeps it current. 80.1k★, MIT.
+- **Read and update the Linear issue you are working on** with [orca-linear](https://github.com/stablyai/orca) by [stablyai](https://github.com/stablyai). Reads the linked issue for the current branch and keeps it current. 85.3k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1589,7 +1589,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Wire Linear Release into CI** with [linear-release-setup](https://github.com/linear/linear-release) by [linear](https://github.com/linear). Linear's own skill for generating the pipeline configuration. 67★, MIT.
+- **Wire Linear Release into CI** with [linear-release-setup](https://github.com/linear/linear-release) by [linear](https://github.com/linear). Linear's own skill for generating the pipeline configuration. 68★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1600,7 +1600,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Create and triage GitHub issues over MCP** with [github-issues](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Bug reports, feature requests, and bulk updates from the session. 39.5k★, MIT.
+- **Create and triage GitHub issues over MCP** with [github-issues](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Bug reports, feature requests, and bulk updates from the session. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1633,7 +1633,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Stop your mail landing in spam** with [email-best-practices](https://github.com/resend/email-best-practices) by [resend](https://github.com/resend). SPF, DKIM, DMARC, bounce handling, and the list hygiene part everyone skips. 143★.
+- **Stop your mail landing in spam** with [email-best-practices](https://github.com/resend/email-best-practices) by [resend](https://github.com/resend). SPF, DKIM, DMARC, bounce handling, and the list hygiene part everyone skips. 144★.
 
   <details>
   <summary>Install</summary>
@@ -1646,7 +1646,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Subagents and agent teams
 
-- **Hand independent tasks to child sessions** with [subagent-driven-development](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Executes a plan by delegating the parts that do not share state. 292.3k★, MIT.
+- **Hand independent tasks to child sessions** with [subagent-driven-development](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Executes a plan by delegating the parts that do not share state. 295.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1657,7 +1657,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Fan work out when two or more tasks are independent** with [dispatching-parallel-agents](https://github.com/obra/superpowers) by [obra](https://github.com/obra). The decision rule for when parallelism helps, and when it just costs tokens. 292.3k★, MIT.
+- **Fan work out when two or more tasks are independent** with [dispatching-parallel-agents](https://github.com/obra/superpowers) by [obra](https://github.com/obra). The decision rule for when parallelism helps, and when it just costs tokens. 295.4k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1668,7 +1668,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Keep the main context clean while investigating** with [research](https://github.com/warpdotdev/common-skills) by [warpdotdev](https://github.com/warpdotdev). Pushes noisy searching into subagents and works from the distilled answer. 592★, MIT.
+- **Keep the main context clean while investigating** with [research](https://github.com/warpdotdev/common-skills) by [warpdotdev](https://github.com/warpdotdev). Pushes noisy searching into subagents and works from the distilled answer. 604★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1679,7 +1679,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Decide how many agents a job needs** with [team-composition-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Sizing heuristics and preset team shapes instead of spawning ten and hoping. 40.0k★, MIT.
+- **Decide how many agents a job needs** with [team-composition-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Sizing heuristics and preset team shapes instead of spawning ten and hoping. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1690,7 +1690,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Give a team of agents a message discipline** with [team-communication-protocols](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Message types, plan approval, shutdown, and the anti-patterns to avoid. 40.0k★, MIT.
+- **Give a team of agents a message discipline** with [team-communication-protocols](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Message types, plan approval, shutdown, and the anti-patterns to avoid. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1701,7 +1701,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Design durable multi-step workflows** with [workflow-orchestration-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Temporal-style separation of workflow and activity, sagas, and deterministic state. 40.0k★, MIT.
+- **Design durable multi-step workflows** with [workflow-orchestration-patterns](https://github.com/wshobson/agents) by [wshobson](https://github.com/wshobson). Temporal-style separation of workflow and activity, sagas, and deterministic state. 40.2k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1714,7 +1714,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
 ### Build agents, skills, and MCP servers
 
-- **Build an MCP server that models can actually use** with [mcp-builder](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Tool design, schemas, and error surfaces, from Anthropic. 178.7k★.
+- **Build an MCP server that models can actually use** with [mcp-builder](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Tool design, schemas, and error surfaces, from Anthropic. 179.7k★.
 
   <details>
   <summary>Install</summary>
@@ -1736,7 +1736,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Scaffold a TypeScript MCP server** with [typescript-mcp-server-generator](https://github.com/github/awesome-copilot) by [github](https://github.com/github). A complete project on the official SDK, not a snippet. 39.5k★, MIT.
+- **Scaffold a TypeScript MCP server** with [typescript-mcp-server-generator](https://github.com/github/awesome-copilot) by [github](https://github.com/github). A complete project on the official SDK, not a snippet. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1747,7 +1747,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Scaffold a Python MCP server** with [python-mcp-server-generator](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Same shape, Python SDK. 39.5k★, MIT.
+- **Scaffold a Python MCP server** with [python-mcp-server-generator](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Same shape, Python SDK. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1758,7 +1758,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Scaffold a Rust MCP server** with [rust-mcp-server-generator](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Tools, prompts, resources, and tests on the official rmcp SDK. 39.5k★, MIT.
+- **Scaffold a Rust MCP server** with [rust-mcp-server-generator](https://github.com/github/awesome-copilot) by [github](https://github.com/github). Tools, prompts, resources, and tests on the official rmcp SDK. 39.7k★, MIT.
 
   <details>
   <summary>Install</summary>
@@ -1769,7 +1769,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Start an agent project with Google's ADK** with [google-agents-cli-scaffold](https://github.com/google/agents-cli) by [google](https://github.com/google). Project scaffold, with sibling skills for eval, deploy, and observability. 6.0k★, Apache-2.0.
+- **Start an agent project with Google's ADK** with [google-agents-cli-scaffold](https://github.com/google/agents-cli) by [google](https://github.com/google). Project scaffold, with sibling skills for eval, deploy, and observability. 6.1k★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
@@ -1780,7 +1780,7 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
-- **Give the agent memory between sessions** with [agentmemory-mcp-tools](https://github.com/rohitg00/agentmemory) by [rohitg00](https://github.com/rohitg00). A map of every agentmemory tool and when to call which one. 29.0k★, Apache-2.0.
+- **Give the agent memory between sessions** with [agentmemory-mcp-tools](https://github.com/rohitg00/agentmemory) by [rohitg00](https://github.com/rohitg00). A map of every agentmemory tool and when to call which one. 29.1k★, Apache-2.0.
 
   <details>
   <summary>Install</summary>
