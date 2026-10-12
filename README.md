@@ -827,6 +827,17 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
+- **Find timestamped evidence across YouTube videos** with [Arcmira: YouTube Transcript Search](https://github.com/arcmira/arcmira) by [Arcmira](https://github.com/arcmira). Quotes, speaker appearances and sponsors. Requires an Arcmira account; free and paid plans. [API docs](https://arcmira.com/docs). 1★, Apache-2.0.
+
+  <details>
+  <summary>Install</summary>
+
+  ```sh
+  /skills add arcmira/arcmira --skill arcmira
+  ```
+
+  </details>
+
 ### Documents, diagrams, and slides
 
 - **Read, split, merge, and fill PDFs** with [pdf](https://github.com/anthropics/skills) by [anthropics](https://github.com/anthropics). Text and table extraction, page surgery, and form filling. Anthropic's own. 180.6k★.
