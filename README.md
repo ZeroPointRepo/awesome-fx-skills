@@ -1875,6 +1875,9 @@ the chain fx walks. Add the URL, `/mcp reload`, `/mcp auth <name> --open`.
   portfolios. `https://mcp.asana.com/sse`
 - **[Canva](https://www.canva.dev/docs/apps/mcp-server/)**. Designs, brand assets, and exports.
   `https://mcp.canva.com/mcp`
+- **[Kling AI Plugin](https://kling.ai/docs/mcp)**. Generate images and videos with a Kling account;
+  generation consumes credits. Global: `https://kling.ai/mcp/plugin`; China:
+  `https://klingai.com/mcp/plugin`. Accounts and credits are region-specific.
 - **[Intercom](https://developers.intercom.com/docs/guides/mcp)**. Conversations, contacts, and
   help-centre articles. `https://mcp.intercom.com/mcp`
 - **[PayPal](https://www.paypal.ai/)**. Invoices, orders, subscriptions, and disputes.
