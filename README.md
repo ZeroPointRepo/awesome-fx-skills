@@ -1644,6 +1644,18 @@ as a shell command works too, and fx installs it itself without running npx.
 
   </details>
 
+- **Configure AgentKit in a project** with [setup-agentkit](https://github.com/scalekit-inc/authstack) by [scalekit-inc](https://github.com/scalekit-inc). Dashboard connection, env credentials, and a first connector path. Needs Scalekit dashboard credentials. 2★, MIT.
+
+  <details>
+  <summary>Install</summary>
+
+  ```sh
+  /skills add scalekit-inc/authstack --skill setup-agentkit
+  ```
+
+  </details>
+
+
 ### Subagents and agent teams
 
 - **Hand independent tasks to child sessions** with [subagent-driven-development](https://github.com/obra/superpowers) by [obra](https://github.com/obra). Executes a plan by delegating the parts that do not share state. 324.5k★, MIT.
